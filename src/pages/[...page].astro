@@ -1,0 +1,24 @@
+---
+import type { GetStaticPaths, Page } from 'astro'
+import { getCollection, type CollectionEntry } from 'astro:content'
+import { config } from '../../config.ts'
+import ArticlesList from '../components/articlesList.astro'
+import Base from '../layouts/base.astro'
+import { sortBydate } from '../libs/sortByDate.ts'
+
+export const getStaticPaths = (async ({ paginate }) => {
+	const articles = sortBydate(await getCollection('articles'))
+
+	return paginate(articles, { pageSize: config.articleByPage })
+}) satisfies GetStaticPaths
+
+const { page } = Astro.props as { page: Page<CollectionEntry<'articles'>> }
+
+const articles = page.data
+
+const { prev, next } = page.url
+---
+
+<Base>
+	<ArticlesList {articles} {prev} {next} />
+</Base>

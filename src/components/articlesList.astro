@@ -1,0 +1,19 @@
+---
+import type { CollectionEntry } from 'astro:content'
+import Card from './card.astro'
+import Pagination from './pagination.astro'
+export interface Props {
+	articles: CollectionEntry<'articles'>[]
+	prev?: string
+	next?: string
+}
+
+const { articles, prev, next } = Astro.props
+---
+
+<section
+	class="container mx-auto grid place-content-center gap-8 p-4 md:grid-cols-2 lg:grid-cols-3"
+>
+	{articles.map((article) => <Card {article} />)}
+</section>
+<Pagination {prev} {next} />

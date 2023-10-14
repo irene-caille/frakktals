@@ -1,0 +1,25 @@
+---
+import type { GetStaticPaths, Page } from 'astro'
+import { config } from '../../../config.ts'
+import { getCollection } from 'astro:content'
+import type { CollectionEntry } from 'astro:content'
+import Base from '../../layouts/base.astro'
+import ArticlesList from '../../components/articlesList.astro'
+import Pagination from '../../components/pagination.astro'
+import { sortBydate } from '../../libs/sortByDate.ts'
+
+export const getStaticPaths = (async ({ paginate }) => {
+	const allArticles = await getCollection('articles')
+	return config.categories.flatMap((category) => {
+		const articles = sortBydate(allArticles.filter((el) => el.data.category === category))
+		const params = { category }
+		return paginate(articles, { params, pageSize: config.articleByPage })
+	})
+}) satisfies GetStaticPaths
+
+const { page } = Astro.props as { page: Page<CollectionEntry<'articles'>> }
+const { prev, next } = page.url
+const articles = page.data
+---
+
+<Base><ArticlesList {articles} {prev} {next} /></Base>

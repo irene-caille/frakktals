@@ -1,0 +1,103 @@
+---
+import { Image } from 'astro:assets'
+interface Props {
+	image?:
+		| {
+				src: string
+				width: number
+				height: number
+				format: 'png' | 'jpg' | 'jpeg' | 'tiff' | 'webp' | 'gif' | 'svg' | 'avif'
+		  }
+		| undefined
+	title?: string | undefined
+	author?: string | undefined
+	other?: string | undefined
+	index: number
+	total: number
+}
+
+const { index, image, title, author, other, total } = Astro.props
+---
+
+<section
+	id={index.toString()}
+	class="relative h-screen w-screen flex-none snap-center gap-16 bg-gray-900 p-4"
+>
+	<div class="grid h-full w-full grid-cols-12 items-center gap-4">
+		{
+			image && (
+				<Image
+					src={image}
+					alt={title ?? ''}
+					width={900}
+					class="col-span-9 max-h-full w-full object-contain"
+				/>
+			)
+		}
+		{
+			(title || author || other) && (
+				<p class="col-span-3  shrink-0 self-end justify-self-end px-1 pb-8 pr-16 text-xl text-white">
+					{author && <span>{author}</span>}
+					{title && <span class="italic">{title}</span>}
+					{other && <span>{other}</span>}
+				</p>
+			)
+		}
+	</div>
+	{
+		index > 0 && (
+			<a
+				href={`#${index - 1}`}
+				class="absolute left-8 top-1/2 text-white/60 hover:text-white focus:text-white"
+			>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="h-6 w-6"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M19.5 12h-15m0 0l6.75 6.75M4.5 12l6.75-6.75"
+					/>
+				</svg>
+			</a>
+		)
+	}
+	{
+		index < total - 1 && (
+			<a
+				href={`#${index + 1}`}
+				class="absolute right-8 top-1/2 text-white/60 hover:text-white focus:text-white"
+			>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="h-6 w-6"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+					/>
+				</svg>
+			</a>
+		)
+	}
+</section>
+
+<style>
+	span {
+		display: block;
+		max-width: 25ch;
+	}
+	span:not(:last-child)::after {
+		content: ', ';
+	}
+</style>

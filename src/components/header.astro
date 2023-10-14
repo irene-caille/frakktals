@@ -1,0 +1,13 @@
+---
+import Logo from './logo.astro'
+import Hamburger from './hamburger.svelte'
+---
+
+<header class="sticky -top-24 z-50 h-24 bg-blue-300">
+	<div class="grid h-full grid-cols-[1fr_auto_1fr] items-center px-8">
+		<Hamburger client:idle />
+		<a href="/">
+			<Logo />
+		</a>
+	</div>
+</header>

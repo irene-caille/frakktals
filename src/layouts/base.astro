@@ -1,0 +1,22 @@
+---
+import '@fontsource/roboto'
+import '@fontsource/roboto/700.css'
+import '@fontsource/roboto/400-italic.css'
+import '@fontsource/chewy'
+import Header from '../components/header.astro'
+---
+
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Arplastoc</title>
+	</head>
+	<body class="bg-blue-300">
+		<Header />
+		<main class="mt-8">
+			<slot />
+		</main>
+	</body>
+</html>

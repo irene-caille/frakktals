@@ -23,24 +23,19 @@ const { index, image, title, author, other, total } = Astro.props
 	id={index.toString()}
 	class="relative h-screen w-screen flex-none snap-center gap-16 bg-gray-900 p-4"
 >
-	<div class="grid h-full w-full grid-cols-12 items-center gap-4">
+	<div class="grid h-full w-full items-center gap-4 md:grid-flow-col">
 		{
 			image && (
-				<Image
-					src={image}
-					alt={title ?? ''}
-					width={900}
-					class="col-span-9 max-h-full w-full object-contain"
-				/>
+				<Image src={image} alt={title ?? ''} width={900} class="max-h-full w-full object-contain" />
 			)
 		}
 		{
 			(title || author || other) && (
-				<p class="col-span-3  shrink-0 self-end justify-self-end px-1 pb-8 pr-16 text-xl text-white">
+				<figcaption class="w-[66ch] shrink-0 justify-self-end px-1 pb-8 pr-16 text-xl text-white md:w-[25ch] md:self-end">
 					{author && <span>{author}</span>}
-					{title && <span class="italic">{title}</span>}
+					{title && <span class="italic ">{title}</span>}
 					{other && <span>{other}</span>}
-				</p>
+				</figcaption>
 			)
 		}
 	</div>
@@ -95,11 +90,7 @@ const { index, image, title, author, other, total } = Astro.props
 </section>
 
 <style>
-	span {
-		display: block;
-		max-width: 25ch;
-	}
-	span:not(:last-child)::after {
+	figcaption span:not(:last-child)::after {
 		content: ', ';
 	}
 </style>

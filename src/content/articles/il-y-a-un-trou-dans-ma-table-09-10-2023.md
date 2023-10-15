@@ -5,25 +5,26 @@ category: 5eme
 image: ../assets/troutable.webp
 references:
   - image: ../assets/saint-ignace-de-loyola-2.jpg
-    title: "Fresque "
+    title: 'Fresque '
     author: Andrea Pozzo, 1685
     other: Rome, Italie
   - image: ../assets/vasarely-années-60.jpg
     author: Victor Vasarely, 1972
     title: Vegapal
   - image: ../assets/felice-varini-illusion-3.jpg
-  - image: ../assets/félice-varini-illusion-in-situ.jpg
-    title: "Peinture In Situ "
+  - image: ../assets/felice-varini-illusion-in-situ.jpg
+    title: 'Peinture In Situ '
     author: Felice Varini
     other: La Vilette, Paris
 ---
-*Bien sûr, pour répondre à ce travail, vous n’allez pas agir directement sur votre table!*
+
+_Bien sûr, pour répondre à ce travail, vous n’allez pas agir directement sur votre table!_
 
 ## **👀 Modalités**
 
 Travail d’une heure, pratique individuelle
 
-## 🟢 Évaluation   TBM MS MF MI
+## 🟢 Évaluation TBM MS MF MI
 
 1. Je suis calme et impliqué.e dans mon travail
 2. Un spectateur peut penser qu'il y'a un trou sur la table
@@ -37,7 +38,7 @@ Travail d’une heure, pratique individuelle
 
 ## 🖼 Références artistiques
 
-1. Plafond de *l'église Saint Ignace de Loyola*, 17ème siècle peinte par Andrea Pozzo
+1. Plafond de _l'église Saint Ignace de Loyola_, 17ème siècle peinte par Andrea Pozzo
 2. Le Op Art: est une expression utilisée pour décrire certaines pratiques et recherches artistiques faites à partir des [années 60/70](https://fr.wikipedia.org/wiki/Ann%C3%A9es_1960), qui jouent sur des [illusions](https://fr.wikipedia.org/wiki/Illusion_optique) ou des jeux d'optique. Voici des oeuvres de Victor Vasarely
 3. Felice Varini, période contemporaine
 4. Edgar Müller, street art, art contemporain

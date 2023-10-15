@@ -1,5 +1,5 @@
 ---
-title: Il y a un trou dans ma table!
+title: Il y a un trou dans ma table
 date: 2023-10-09T10:13:24.076Z
 category: 5eme
 image: ../assets/troutable.webp

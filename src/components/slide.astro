@@ -21,24 +21,27 @@ const { index, image, title, author, other, total } = Astro.props
 
 <section
 	id={index.toString()}
-	class="relative h-screen w-screen flex-none snap-center gap-16 bg-gray-900 p-4"
+	class="relative grid w-screen flex-none snap-center items-center gap-16 bg-gray-900 p-4 md:h-screen md:grid-flow-col"
 >
-	<div class="grid h-full w-full items-center gap-4 md:grid-flow-col">
-		{
-			image && (
-				<Image src={image} alt={title ?? ''} width={900} class="max-h-full w-full object-contain" />
-			)
-		}
-		{
-			(title || author || other) && (
-				<figcaption class="w-[66ch] shrink-0 justify-self-end px-1 pb-8 pr-16 text-xl text-white md:w-[25ch] md:self-end">
-					{author && <span>{author}</span>}
-					{title && <span class="italic ">{title}</span>}
-					{other && <span>{other}</span>}
-				</figcaption>
-			)
-		}
-	</div>
+	{
+		image && (
+			<Image
+				src={image}
+				alt={title ?? ''}
+				width={900}
+				class="max-h-[90vh] w-full max-w-[90vw] object-contain"
+			/>
+		)
+	}
+	{
+		(title || author || other) && (
+			<figcaption class="w-[66ch] shrink-0 justify-self-end px-1 pb-8 pr-16 text-xl text-white md:w-[25ch] md:self-end">
+				{author && <span>{author}</span>}
+				{title && <span class="italic ">{title}</span>}
+				{other && <span>{other}</span>}
+			</figcaption>
+		)
+	}
 	{
 		index > 0 && (
 			<a

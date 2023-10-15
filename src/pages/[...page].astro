@@ -16,9 +16,17 @@ const { page } = Astro.props as { page: Page<CollectionEntry<'articles'>> }
 
 const articles = page.data
 
+const cards = articles.map((el) => ({
+	title: el.data.title,
+	category: el.data.category,
+	url: `/articles/${el.slug}`,
+	image: el.data.image,
+	altImage: el.data.altImage
+}))
+
 const { prev, next } = page.url
 ---
 
 <Base>
-	<ArticlesList {articles} {prev} {next} />
+	<ArticlesList {cards} {prev} {next} />
 </Base>

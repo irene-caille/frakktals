@@ -1,0 +1,60 @@
+---
+import type { GetStaticPaths, InferGetStaticPropsType } from 'astro'
+import Base from '../../layouts/base.astro'
+import { getCollection } from 'astro:content'
+import { Image, getImage } from 'astro:assets'
+
+export const getStaticPaths = (async () => {
+	const galeries = await getCollection('galeries')
+	return galeries.map((el) => ({
+		params: { slug: el.slug },
+		props: { images: el.data.images }
+	}))
+}) satisfies GetStaticPaths
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths>
+
+const { images } = Astro.props
+
+const fullImages = await Promise.all(
+	images.map(({ image }) => getImage({ src: image, width: 1000 }))
+)
+---
+
+<Base>
+	<section class="p-4">
+		<ul class="container mx-auto flex flex-wrap gap-6" id="gallery">
+			{
+				images.map((el, i) => (
+					<li class="h-48 grow overflow-hidden  rounded-xl border-2 border-black lg:h-72">
+						<a
+							href={fullImages[i].src}
+							data-pswp-width={fullImages[i].attributes.width}
+							data-pswp-height={fullImages[i].attributes.height}
+						>
+							<Image
+								src={el.image}
+								alt={el.title ?? ''}
+								class="h-full max-h-full w-auto min-w-full cursor-pointer object-cover"
+								width={400}
+							/>
+						</a>
+					</li>
+				))
+			}
+		</ul>
+	</section>
+</Base>
+
+<script>
+	import PhotoSwipeLightbox from 'photoswipe/lightbox'
+	import 'photoswipe/photoswipe.css'
+	import 'photoswipe/style.css'
+
+	const lightbox = new PhotoSwipeLightbox({
+		gallery: '#gallery',
+		children: 'a',
+		pswpModule: () => import('photoswipe')
+	})
+	lightbox.init()
+</script>

@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content'
+import Base from '../../layouts/base.astro'
+import ArticlesList from '../../components/articlesList.astro'
+import type { GetStaticPaths, InferGetStaticPropsType } from 'astro'
+import { config } from '../../../config.ts'
+import Pagination from '../../components/pagination.astro'
+
+export const getStaticPaths = (async ({ paginate }) => {
+	const galeries = await getCollection('galeries')
+	return paginate(galeries, { pageSize: config.articleByPage })
+}) satisfies GetStaticPaths
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths>
+
+const { page } = Astro.props
+
+const galeries = page.data
+
+const { prev, next } = page.url
+
+const cards = galeries.map((el) => ({
+	title: el.data.title,
+	image: el.data.images[0].image,
+	altImage: el.data.images[0].title,
+	url: `/galeries/${el.slug}`
+}))
+---
+
+<Base>
+	<ArticlesList {cards} />
+	<Pagination {prev} {next} />
+</Base>

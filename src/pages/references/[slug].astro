@@ -16,9 +16,7 @@ export const getStaticPaths = (async () => {
 }) satisfies GetStaticPaths
 
 type Props = InferGetStaticPropsType<typeof getStaticPaths>
-
 const { slug } = Astro.params
-
 const { references, title } = Astro.props
 ---
 

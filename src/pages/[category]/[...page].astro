@@ -20,6 +20,13 @@ export const getStaticPaths = (async ({ paginate }) => {
 const { page } = Astro.props as { page: Page<CollectionEntry<'articles'>> }
 const { prev, next } = page.url
 const articles = page.data
+const cards = articles.map((el) => ({
+	title: el.data.title,
+	category: el.data.category,
+	url: `/articles/${el.slug}`,
+	image: el.data.image,
+	altImage: el.data.altImage
+}))
 ---
 
-<Base><ArticlesList {articles} {prev} {next} /></Base>
+<Base><ArticlesList {cards} {prev} {next} /></Base>

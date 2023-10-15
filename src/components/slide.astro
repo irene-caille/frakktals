@@ -48,6 +48,7 @@ const { index, image, title, author, other, total } = Astro.props
 		index > 0 && (
 			<a
 				href={`#${index - 1}`}
+				aria-label="précédent"
 				class="absolute left-8 top-1/2 text-white/60 hover:text-white focus:text-white"
 			>
 				<svg
@@ -71,6 +72,7 @@ const { index, image, title, author, other, total } = Astro.props
 		index < total - 1 && (
 			<a
 				href={`#${index + 1}`}
+				aria-label="suivant"
 				class="absolute right-8 top-1/2 text-white/60 hover:text-white focus:text-white"
 			>
 				<svg

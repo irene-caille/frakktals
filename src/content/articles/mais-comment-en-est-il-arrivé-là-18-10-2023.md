@@ -2,7 +2,7 @@
 title: Mais comment en est-il arrivé là?
 date: 2023-10-18T16:05:07.387Z
 category: 6eme
-image: ../assets/keith-haring-grande-petite.png
+image: ../assets/keith-haring-grande.jpeg
 references:
   - image: ../assets/personnage-keith-haring-grande.jpeg
     title: D'après l'affiche du festival de jazz de Montreux

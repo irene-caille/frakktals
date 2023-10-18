@@ -5,7 +5,7 @@ category: 5eme
 image: ../assets/troutable.webp
 references:
   - image: ../assets/saint-ignace-de-loyola-2.jpg
-    title: 'Fresque '
+    title: "Fresque "
     author: Andrea Pozzo, 1685
     other: Rome, Italie
   - image: ../assets/vasarely-années-60.jpg
@@ -13,22 +13,20 @@ references:
     title: Vegapal
   - image: ../assets/felice-varini-illusion-3.jpg
   - image: ../assets/felice-varini-illusion-in-situ.jpg
-    title: 'Peinture In Situ '
+    title: "Peinture In Situ "
     author: Felice Varini
     other: La Vilette, Paris
 ---
-
-_Bien sûr, pour répondre à ce travail, vous n’allez pas agir directement sur votre table!_
+*Bien sûr, pour répondre à ce travail, vous n’allez pas agir directement sur votre table!*
 
 ## **👀 Modalités**
 
-Travail d’une heure, pratique individuelle
+Travail d’une heure, pratique individuelle, technique libre
 
 ## 🟢 Évaluation TBM MS MF MI
 
-1. Je suis calme et impliqué.e dans mon travail
-2. Un spectateur peut penser qu'il y'a un trou sur la table
-3. J'ai travaillé 50 minutes sur ma / mes prouductions
+1. **Je suis calme et impliqué.e dans mon travail** *Faire preuve d’autonomie, d’initiative, de responsabilité, d’engagement et d’esprit critique dans la conduite d’un projet artistique*
+2. **Un spectateur peut penser qu'il y'a vraiment un trou sur la table** *Prendre en compte les conditions de la réception de sa production dès la démarche de création*
 
 ## 🧐 On apprend quoi?
 
@@ -38,7 +36,7 @@ Travail d’une heure, pratique individuelle
 
 ## 🖼 Références artistiques
 
-1. Plafond de _l'église Saint Ignace de Loyola_, 17ème siècle peinte par Andrea Pozzo
+1. Plafond de *l'église Saint Ignace de Loyola*, 17ème siècle peinte par Andrea Pozzo
 2. Le Op Art: est une expression utilisée pour décrire certaines pratiques et recherches artistiques faites à partir des [années 60/70](https://fr.wikipedia.org/wiki/Ann%C3%A9es_1960), qui jouent sur des [illusions](https://fr.wikipedia.org/wiki/Illusion_optique) ou des jeux d'optique. Voici des oeuvres de Victor Vasarely
 3. Felice Varini, période contemporaine
 4. Edgar Müller, street art, art contemporain

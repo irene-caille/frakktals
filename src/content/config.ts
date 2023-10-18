@@ -17,7 +17,7 @@ const articlesCollection = defineCollection({
 						title: z.string().optional(),
 						author: z.string().optional(),
 						other: z.string().optional(),
-						image: image().optional()
+						image: image()
 					})
 				)
 				.optional()

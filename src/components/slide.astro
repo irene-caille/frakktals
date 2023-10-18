@@ -29,7 +29,8 @@ const { index, image, title, author, other, total } = Astro.props
 				src={image}
 				alt={title ?? ''}
 				width={900}
-				class="absolute left-0 top-0 h-full w-full object-contain p-4 md:h-full md:w-4/6"
+				class="absolute left-0 top-0 h-full w-full object-contain p-4"
+				class:list={[(title || author || other) && 'md:h-full md:w-4/6']}
 			/>
 		)
 	}

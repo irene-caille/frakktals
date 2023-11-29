@@ -11,10 +11,6 @@ references:
     title: Titre inconnu
     author: 'Li Hongbo :'
     other: >-
-      Li Hongbo est connu pour ses sculptures en papier qui défient la
-      perception. Il crée des œuvres qui ressemblent à des sculptures en marbre
-      traditionnelles, mais qui peuvent être étirées et déformées de manière
-      surprenante en raison de la nature flexible du papier
       https://www.youtube.com/watch?v=QyRPgUwbqQ0&ab_channel=euronews%28enfran%C3%A7ais%29
   - image: >-
       /src/content/assets/Omoplata 200 papier sculpture matériaux matière

@@ -4,12 +4,12 @@ import { title } from '../content/settings/settings.json'
 const letters = title.split('')
 ---
 
-<h1 class="font-display text-8xl tracking-[-0.07em] text-logo-400">
+<h1 class="font-display text-5xl tracking-[-0.07em] text-logo-400 sm:text-8xl">
 	{
 		letters.map((l, i) => (
 			<span
 				class="inline-block drop-shadow-[0.05em_0.05em_0px_rgba(0,0,0,1)]"
-				style={`--index:${i}; --rotate:${i % 2 === 0 ? "3deg" : "-3deg"}`}
+				style={`--index:${i}; --rotate:${i % 2 === 0 ? '3deg' : '-3deg'}`}
 			>
 				{l}
 			</span>
@@ -23,7 +23,7 @@ const letters = title.split('')
 		-webkit-text-stroke: 3px black;
 		text-stroke: 3px black;
 		animation: blop 0.4s cubic-bezier(0.47, 1.64, 0.41, 0.8) both;
-		animation-delay:calc(var(--index) * var(--delay));
+		animation-delay: calc(var(--index) * var(--delay));
 		transform-origin: center;
 	}
 	@keyframes blop {

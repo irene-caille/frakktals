@@ -2,13 +2,12 @@
 import Logo from './logo.astro'
 import Hamburger from './hamburger.svelte'
 import { getCollection } from 'astro:content'
-import Logo from './logo.astro'
 
 const rawCategories = await getCollection('categories')
 const categories = [...rawCategories.map((el) => el.data.title), 'galeries']
 ---
 
-<header class="sticky -top-24 z-50 h-28 bg-primary-300">
+<header class="sticky -top-24 z-50 h-20 bg-primary-300 sm:h-28">
 	<div class="grid h-full grid-cols-[1fr_auto_1fr] items-center px-8">
 		<Hamburger client:idle items={categories} />
 		<a href="/">

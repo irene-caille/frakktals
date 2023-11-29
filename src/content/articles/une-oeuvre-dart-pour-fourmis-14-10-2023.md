@@ -1,25 +1,26 @@
 ---
 title: Un musée pour fourmis
 date: 2023-10-14T15:28:01.562Z
-category: 6eme
-image: ../assets/23f3a7_8a291ed4f97843aebfa840954c0b7889~mv2.gif
+category: src/content/categories/6eme.md
+image: /src/content/assets/23f3a7_8a291ed4f97843aebfa840954c0b7889~mv2.gif
 altImage: Fourmi qui danse.
 references:
-  - image: ../assets/sceno.jpeg
+  - image: /src/content/assets/sceno.jpeg
     title: Exemple de scénographie
     author: Musée Georges Méliès
-  - image: ../assets/sceno-guimet-jbh-10170.jpeg
-    title: Scénographie pour une exposition au Musée Guimet, Paris
-  - image: ../assets/sculpturessanszizi.jpeg
-    title: Sculptures au Musée du Louvre, Paris
-  - image: ../assets/rodin.jpeg
-    title: Vue d'une salle au Musée Rodin, Paris
-  - image: ../assets/assyrian.jpeg
-    title: Le roi assyrien Assurbanipal, albâtre, 645-635 avant notre ère
-    other: " British Museum, Londres"
-    author: ""
+  - image: /src/content/assets/sceno-guimet-jbh-10170.jpeg
+    title: 'Scénographie pour une exposition au Musée Guimet, Paris'
+  - image: /src/content/assets/sculpturessanszizi.jpeg
+    title: 'Sculptures au Musée du Louvre, Paris'
+  - image: /src/content/assets/rodin.jpeg
+    title: 'Vue d''une salle au Musée Rodin, Paris'
+  - image: /src/content/assets/assyrian.jpeg
+    title: 'Le roi assyrien Assurbanipal, albâtre, 645-635 avant notre ère'
+    author: ''
+    other: ' British Museum, Londres'
 ---
-## 👀  Modalités
+
+## 👀 Modalités
 
 * 35/40 minutes pour transformer une petite boîte en papier en musée pour fourmis.
 * Travail collaboratif, par îlot (3 ou 4 élèves)
@@ -43,9 +44,7 @@ sculpture, tableau, présentation, scénographie, spectateur
 
 **Mettre en oeuvre un projet artistique**
 
-> Identifier et assumer sa part de responsabilité dans un processus coopératif de création
->
-> Adapter son projet en fonction des contraintes de réalisation et de la prise en compte du spectateur
+> Identifier et assumer sa part de responsabilité dans un processus coopératif de créationAdapter son projet en fonction des contraintes de réalisation et de la prise en compte du spectateur
 
 ## 📜 Point du programme du cycle 3
 

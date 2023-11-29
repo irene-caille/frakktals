@@ -3,11 +3,10 @@
 	"type": "module",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "astro dev",
+		"dev": "tinacms dev -c \"astro dev\"",
 		"start": "astro dev",
 		"build": "astro build",
 		"preview": "astro preview",
-		"dev:cms": "npx netlify-cms-proxy-server",
 		"astro": "astro"
 	},
 	"dependencies": {
@@ -24,10 +23,12 @@
 		"prettier-plugin-tailwindcss": "^0.5.5",
 		"svelte": "^4.2.1",
 		"tailwindcss": "^3.3.3",
+		"tinacms": "^1.5.26",
 		"typescript": "^5.2.2"
 	},
 	"devDependencies": {
 		"@fontsource/oswald": "^5.0.14",
-		"netlify-cms-proxy-server": "^1.3.24"
+		"@tinacms/cli": "^1.5.36",
+		"@types/node": "^20.10.0"
 	}
 }

@@ -16,9 +16,7 @@ type Props = InferGetStaticPropsType<typeof getStaticPaths>
 
 const { images } = Astro.props
 
-const fullImages = await Promise.all(
-	images.map(({ image }) => getImage({ src: image, width: 1000 }))
-)
+const fullImages = await Promise.all(images.map((image) => getImage({ src: image, width: 1000 })))
 ---
 
 <Base>
@@ -33,8 +31,8 @@ const fullImages = await Promise.all(
 							data-pswp-height={fullImages[i].attributes.height}
 						>
 							<Image
-								src={el.image}
-								alt={el.title ?? ''}
+								src={el}
+								alt={''}
 								class="h-full max-h-full w-auto min-w-full cursor-pointer object-cover"
 								width={400}
 							/>

@@ -1,22 +1,23 @@
 ---
 title: Il y a un trou dans ma table
 date: 2023-10-09T10:13:24.076Z
-category: 5eme
-image: ../assets/troutable.webp
+category: src/content/categories/5eme.md
+image: /src/content/assets/troutable.webp
 references:
-  - image: ../assets/saint-ignace-de-loyola-2.jpg
-    title: "Fresque "
-    author: Andrea Pozzo, 1685
-    other: Rome, Italie
-  - image: ../assets/vasarely-années-60.jpg
-    author: Victor Vasarely, 1972
+  - image: /src/content/assets/saint-ignace-de-loyola-2.jpg
+    title: 'Fresque '
+    author: 'Andrea Pozzo, 1685'
+    other: 'Rome, Italie'
+  - image: /src/content/assets/vasarely-années-60.jpg
     title: Vegapal
-  - image: ../assets/felice-varini-illusion-3.jpg
-  - image: ../assets/felice-varini-illusion-in-situ.jpg
-    title: "Peinture In Situ "
+    author: 'Victor Vasarely, 1972'
+  - image: /src/content/assets/felice-varini-illusion-3.jpg
+  - image: /src/content/assets/felice-varini-illusion-in-situ.jpg
+    title: 'Peinture In Situ '
     author: Felice Varini
-    other: La Vilette, Paris
+    other: 'La Vilette, Paris'
 ---
+
 *Bien sûr, pour répondre à ce travail, vous n’allez pas agir directement sur votre table!*
 
 ## **👀 Modalités**
@@ -30,7 +31,7 @@ Travail d’une heure, pratique individuelle, technique libre
 
 ## 🧐 On apprend quoi?
 
-**Illusion d’optique** Les illusions d'optiques sont toutes les [illusions](https://fr.wikimini.org/w/index.php?title=Illusion&action=edit&redlink=1) qui trompent l'[œil humain](https://fr.wikimini.org/wiki/%C5%92il). Elles lui font percevoir une [image](https://fr.wikimini.org/wiki/Image) qui n'est pas conforme (qui ne correspond pas) à la réalité.. (Wikimini)
+**Illusion d’optique** Les illusions d'optiques sont toutes les [illusions](https://fr.wikimini.org/w/index.php?title=Illusion\&action=edit\&redlink=1) qui trompent l'[œil humain](https://fr.wikimini.org/wiki/%C5%92il). Elles lui font percevoir une [image](https://fr.wikimini.org/wiki/Image) qui n'est pas conforme (qui ne correspond pas) à la réalité.. (Wikimini)
 **Trompe-l'œil** Le trompe-l’œil est un genre pictural (= peinture) très **réaliste**, qui est destiné à jouer sur la confusion de la perception du spectateur.
 **Bidimensionnel** Deux dimensions ou bidimensionnel sont des expressions qui caractérisent quelque chose de plat, qui ne comporte donc pas de profondeur. Le contraire est un objet en trois dimensions.
 

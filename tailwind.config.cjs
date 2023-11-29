@@ -1,4 +1,8 @@
+const colors = require('tailwindcss/colors')
 const defaultTheme = require('tailwindcss/defaultTheme')
+const fs = require('node:fs')
+
+const settings = JSON.parse(fs.readFileSync('src/content/settings/settings.json'))
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
@@ -11,7 +15,9 @@ module.exports = {
 				screen: ['100vh', '100dvh']
 			},
 			colors: {
-				fluo: '#FFFF00'
+				primary: colors[settings.primaryColor],
+				links: colors[settings.linksColor],
+				logo: colors[settings.logoColor]
 			},
 
 			fontFamily: {

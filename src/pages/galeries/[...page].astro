@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content'
 import Base from '../../layouts/base.astro'
 import ArticlesList from '../../components/articlesList.astro'
 import type { GetStaticPaths, InferGetStaticPropsType } from 'astro'
-import { config } from '../../../config.ts'
+import { config } from '../../libs/siteConfig.ts'
 import Pagination from '../../components/pagination.astro'
 
 export const getStaticPaths = (async ({ paginate }) => {
@@ -21,8 +21,8 @@ const { prev, next } = page.url
 
 const cards = galeries.map((el) => ({
 	title: el.data.title,
-	image: el.data.images[0].image,
-	altImage: el.data.images[0].title,
+	image: el.data.images[0],
+	altImage: '',
 	url: `/galeries/${el.slug}`
 }))
 ---

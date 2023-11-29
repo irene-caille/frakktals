@@ -1,5 +1,5 @@
 import { z, defineCollection } from 'astro:content'
-import { config } from '../../config.ts'
+import { config } from '../libs/siteConfig.ts'
 
 // 2. Define a `type` and `schema` for each collection
 const articlesCollection = defineCollection({
@@ -8,7 +8,7 @@ const articlesCollection = defineCollection({
 		z.object({
 			title: z.string(),
 			date: z.date(),
-			category: z.enum(config.categories),
+			category: z.string(),
 			image: image(),
 			altImage: z.string().optional(),
 			references: z
@@ -30,17 +30,20 @@ const galeriesCollection = defineCollection({
 		z.object({
 			title: z.string(),
 			date: z.date(),
-			images: z.array(
-				z.object({
-					image: image(),
-					title: z.string().optional()
-				})
-			)
+			images: z.array(image())
 		})
+})
+
+const categoriesCollection = defineCollection({
+	type: 'content',
+	schema: z.object({
+		title: z.string()
+	})
 })
 
 // 3. Export a single `collections` object to register your collection(s)
 export const collections = {
 	articles: articlesCollection,
-	galeries: galeriesCollection
+	galeries: galeriesCollection,
+	categories: categoriesCollection
 }

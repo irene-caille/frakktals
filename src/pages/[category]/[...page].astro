@@ -1,18 +1,24 @@
 ---
 import type { GetStaticPaths, Page } from 'astro'
-import { config } from '../../../config.ts'
-import { getCollection } from 'astro:content'
 import type { CollectionEntry } from 'astro:content'
-import Base from '../../layouts/base.astro'
+import { getCollection } from 'astro:content'
+import { config } from '../../libs/siteConfig.ts'
 import ArticlesList from '../../components/articlesList.astro'
-import Pagination from '../../components/pagination.astro'
+import Base from '../../layouts/base.astro'
 import { sortBydate } from '../../libs/sortByDate.ts'
+import { slugify } from '../../libs/slugify.ts'
+import { getCategory } from '../../libs/getCategory.ts'
 
 export const getStaticPaths = (async ({ paginate }) => {
 	const allArticles = await getCollection('articles')
-	return config.categories.flatMap((category) => {
-		const articles = sortBydate(allArticles.filter((el) => el.data.category === category))
-		const params = { category }
+	const categories = await getCollection('categories')
+	return categories.flatMap(({ data: categoryData, id }) => {
+		const filteredArticles = allArticles.filter((el) => {
+			const articleCategoryFileName = el.data.category.split('/')?.at(-1)
+			return articleCategoryFileName === id
+		})
+		const articles = sortBydate(filteredArticles) ?? []
+		const params = { category: slugify(categoryData.title) }
 		return paginate(articles, { params, pageSize: config.articleByPage })
 	})
 }) satisfies GetStaticPaths
@@ -20,13 +26,18 @@ export const getStaticPaths = (async ({ paginate }) => {
 const { page } = Astro.props as { page: Page<CollectionEntry<'articles'>> }
 const { prev, next } = page.url
 const articles = page.data
-const cards = articles.map((el) => ({
-	title: el.data.title,
-	category: el.data.category,
-	url: `/articles/${el.slug}`,
-	image: el.data.image,
-	altImage: el.data.altImage
-}))
+const cards = await Promise.all(
+	articles.map(async (el) => {
+		const category = (await getCategory(el.data.category)) ?? ''
+		return {
+			title: el.data.title,
+			category,
+			url: `/articles/${el.slug}`,
+			image: el.data.image,
+			altImage: el.data.altImage
+		}
+	})
+)
 ---
 
 <Base><ArticlesList {cards} {prev} {next} /></Base>

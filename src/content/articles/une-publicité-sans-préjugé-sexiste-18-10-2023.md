@@ -1,24 +1,26 @@
 ---
 title: Une publicité sans préjugé sexiste
 date: 2023-10-18T19:24:18.177Z
-category: 6eme
-image: ../assets/couv-prejuges-sexistes.jpeg
-altImage: illustration d'une petite fille en tutu mécontente et d'un petit
-  garçon avec un ballon de foot mécontent également
+category: src/content/categories/6eme.md
+image: /src/content/assets/couv-prejuges-sexistes.jpeg
+altImage: >-
+  illustration d'une petite fille en tutu mécontente et d'un petit garçon avec
+  un ballon de foot mécontent également
 references:
-  - image: ../assets/0e328446-1c59-424d-89f0-21db1fdde0a7.jpeg
-  - image: ../assets/3c2a1bf9-c3ac-44fb-addf-0dd8dca939bd.jpeg
-  - image: ../assets/6f1575f6-4b6a-4b7d-b147-c7f366135017.jpeg
-  - image: ../assets/8f1ee5f3-d4d1-4ec2-acdb-959a4fd10524.jpeg
-  - image: ../assets/8f8023cb-d815-4f6f-8653-b45b580b056f.jpeg
-  - image: ../assets/7569f53b-236b-4eb7-adac-b0b4182335c2.jpeg
-  - image: ../assets/274e3f32-ae0f-4ec6-bf4d-b2991eff6389.jpeg
-  - image: ../assets/96041c7f-bac8-42b4-aab2-0769a8351a06.jpeg
-  - image: ../assets/c5534f2a-53bc-45f7-b0c9-9e1f37c077f6.jpeg
-  - image: ../assets/cb551584-f8bf-4500-aec0-e6cc27b3e4ba.jpeg
-  - image: ../assets/robot.jpeg
+  - image: /src/content/assets/0e328446-1c59-424d-89f0-21db1fdde0a7.jpeg
+  - image: /src/content/assets/3c2a1bf9-c3ac-44fb-addf-0dd8dca939bd.jpeg
+  - image: /src/content/assets/6f1575f6-4b6a-4b7d-b147-c7f366135017.jpeg
+  - image: /src/content/assets/8f1ee5f3-d4d1-4ec2-acdb-959a4fd10524.jpeg
+  - image: /src/content/assets/8f8023cb-d815-4f6f-8653-b45b580b056f.jpeg
+  - image: /src/content/assets/7569f53b-236b-4eb7-adac-b0b4182335c2.jpeg
+  - image: /src/content/assets/274e3f32-ae0f-4ec6-bf4d-b2991eff6389.jpeg
+  - image: /src/content/assets/96041c7f-bac8-42b4-aab2-0769a8351a06.jpeg
+  - image: /src/content/assets/c5534f2a-53bc-45f7-b0c9-9e1f37c077f6.jpeg
+  - image: /src/content/assets/cb551584-f8bf-4500-aec0-e6cc27b3e4ba.jpeg
+  - image: /src/content/assets/robot.jpeg
 ---
-![](../assets/pub.jpeg)
+
+![](/src/content/assets/pub.jpeg)
 
 ## 💬 Discutons un peu
 

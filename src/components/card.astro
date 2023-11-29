@@ -1,5 +1,7 @@
 ---
 import { Image } from 'astro:assets'
+import { getCollection } from 'astro:content'
+import { config } from '../libs/siteConfig.ts'
 interface Props {
 	title: string
 	image: ImageMetadata
@@ -9,6 +11,10 @@ interface Props {
 }
 
 const { title, image, altImage, category, url } = Astro.props
+
+const categories = await getCollection('categories')
+const categorieIndex = categories.findIndex((el) => el.data.title === category)
+const color = config.categoriesColors[Math.abs(categorieIndex) % config.categoriesColors.length].fg
 ---
 
 <article class="grid max-w-xs gap-2 rounded-3xl border-2 border-black bg-white p-2 sm:max-w-sm">
@@ -26,13 +32,8 @@ const { title, image, altImage, category, url } = Astro.props
 		{
 			category && (
 				<span
-					class="absolute left-4 top-2 rounded-full border-2 border-black px-3 py-1 font-display"
-					class:list={[
-						category === '6eme' && 'bg-pink-400',
-						category === '5eme' && 'bg-blue-400',
-						category === '4eme' && 'bg-lime-400',
-						category === '3eme' && 'bg-orange-400'
-					]}
+					class="absolute left-4 top-2 rounded-full border-2 border-black bg-white px-3 py-1 font-display"
+					class:list={[color]}
 				>
 					{category}
 				</span>
@@ -42,7 +43,7 @@ const { title, image, altImage, category, url } = Astro.props
 
 	<a href={url} class="group flex h-20 items-center" {title}>
 		<h2
-			class="line-clamp-2 font-display text-2xl transition-colors group-hover:text-fuchsia-500 sm:text-3xl"
+			class="group-hover:text-links-500 line-clamp-2 font-display text-2xl transition-colors sm:text-3xl"
 		>
 			{title}
 		</h2>

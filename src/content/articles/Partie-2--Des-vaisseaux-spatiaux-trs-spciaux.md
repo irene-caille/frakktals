@@ -50,7 +50,7 @@ references:
 
 ## **🤔 On apprend quoi?**
 
-* Réaliser un travail en volume avec un matériaux souple, fin et fragile: le papier
+* Réaliser un travail en volume avec un matériau souple, fin et fragile: le papier
 * Appréhender le potentiel plastique du papier ( le plier, de couper, le tresser, etc.)
 * Expérimenter et chercher des stratégies pour faire tenir l'objet en équilibre
 

@@ -9,7 +9,9 @@ references:
     title: 'Rythme d''automne (numéro 30) '
     author: 'Jackson Pollock '
     other: '1950'
-  - {}
+  - image: /src/content/assets/IMG_20190416_114607027-1 Grande.jpeg
+    title: 'Rythme d''automne (numéro 30) '
+    author: de Jackson Pollock 1950
   - {}
   - {}
 ---
@@ -18,14 +20,11 @@ references:
 
 ### À vous de trouver des solutions pour en représenter le plus possible en 45 minutes!
 
-
-🤓 Modalités
-------------
+## 🤓 Modalités
 
 40-45 minutes de pratique
 
 Travail individuel
-
 
 ## 📚Mots et notions
 

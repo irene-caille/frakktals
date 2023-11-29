@@ -21,20 +21,31 @@ references:
       Grande.jpeg
     title: Omoplata 200
     author: Matt Shlian 2023
-  - {}
-  - {}
-  - {}
-  - {}
-  - {}
+  - image: >-
+      /src/content/assets/Unholy 325 my battery is low and it's getting dark
+      papier noir Grande.jpeg
+    title: 'Unholy 325 my battery is low and it''s getting dark '
+    author: Matt Shlian 2023
+    other: Papier noir
+  - image: /src/content/assets/Process series mini's turn Grande.jpeg
+    title: 'Process series mini''s turn '
+    author: Matt Shlian 2023
+  - image: /src/content/assets/Sumi 2019 Grande.jpeg
+    title: 'Sumi '
+    author: Nahoko Kojima 2019
+  - image: /src/content/assets/Paper art.jpeg
+    title: Paper art
+    author: Peter Gentenaar ( date inconnue)
+    other: ''
 ---
 
 > Après avoir réussi à envahir l’espace de votre feuille, les extraterrestres décident de retourner sur leurs planètes!
 
-Pour les aider, vous réaliserez des vaisseaux spatiaux en volume et rien qu’en papier!
+## Pour les aider, vous réaliserez des vaisseaux spatiaux en volume et rien qu’en papier!
 
-Il devra tenir debout, sans votre aide!
+## Votre vaisseau devra tenir debout, sans votre aide!
 
-## 💬 Modalités
+## **💬 Modalités**
 
 2h de pratique
 
@@ -44,7 +55,7 @@ Du scotch, de la colle blanche, une paire de ciseaux et du papier coloré
 
 Pas plus de 30 cm de hauteur
 
-## 🤔 On apprend quoi?
+## **🤔 On apprend quoi?**
 
 Réaliser un travail en volume avec un matériaux souple, fin et fragile: le papier
 
@@ -52,7 +63,7 @@ Appréhender le potentiel plastique du papier ( le plier, de couper, le tresser,
 
 Expérimenter et chercher des stratégies pour faire tenir l'objet en équilibre
 
-## 👩🏼‍🏫 Mots et notions
+## **👩🏼‍🏫 Mots et notions**
 
 * Sculpture
 * Volume
@@ -60,7 +71,7 @@ Expérimenter et chercher des stratégies pour faire tenir l'objet en équilibre
 * Équilibre
 * Présentation/ représentation
 
-## 🟢 Compétences
+## **🟢 Compétences**
 
 * Mon vaisseau spatiale tient debout sans mon aide
 
@@ -72,10 +83,10 @@ Se repérer dans les étapes de la réalisation d’une production plastique et 
 
 Mener à terme une production individuelle dans le cadre d’un projet accompagné par le professeur
 
-## 📚 Programme
+## 📚 **Programme**
 
 > Les qualités physiques des matériaux : les matériaux et leur potentiel de signification dans une intention artistique
 
-## 👀 Références artistiques
+## **👀 Références artistiques**
 
 Voici des artistes qui ont travaillé avec la finesse et la délicatesse du papier

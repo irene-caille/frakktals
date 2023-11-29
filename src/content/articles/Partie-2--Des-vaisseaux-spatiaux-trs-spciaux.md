@@ -41,9 +41,9 @@ references:
 
 > Après avoir réussi à envahir l’espace de votre feuille, les extraterrestres décident de retourner sur leurs planètes!
 
-## Pour les aider, vous réaliserez des vaisseaux spatiaux en volume et rien qu’en papier!
+### Pour les aider, vous réaliserez des vaisseaux spatiaux en volume et rien qu’en papier!
 
-## Votre vaisseau devra tenir debout, sans votre aide!
+#### Votre vaisseau devra tenir debout, sans votre aide!
 
 ## **💬 Modalités**
 

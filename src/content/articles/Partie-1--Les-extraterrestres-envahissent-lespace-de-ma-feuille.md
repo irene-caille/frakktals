@@ -5,7 +5,7 @@ category: src/content/categories/5eme.md
 image: /src/content/assets/Et.jpeg
 altImage: Affiche du film E.T l'Extraterrestre de Steven Spielberg en 1982
 references:
-  - image: /src/content/assets/Autumn_Rhythm1950 Grande.jpeg
+  - image: /src/content/assets/Autumn_Rhythm1950.jpeg
     title: 'Rythme d''automne (numéro 30) '
     author: 'Jackson Pollock '
     other: '1950'

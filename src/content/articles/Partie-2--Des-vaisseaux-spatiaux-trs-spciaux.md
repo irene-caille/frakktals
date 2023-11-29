@@ -47,21 +47,16 @@ references:
 
 ## **💬 Modalités**
 
-2h de pratique
-
-Travail en binôme ou individuel
-
-Du scotch, de la colle blanche, une paire de ciseaux et du papier coloré
-
-Pas plus de 30 cm de hauteur
+* 2h de pratique
+* Travail en binôme ou individuel
+* Du scotch, de la colle blanche, une paire de ciseaux et du papier coloré
+* Pas plus de 30 cm de hauteur
 
 ## **🤔 On apprend quoi?**
 
-Réaliser un travail en volume avec un matériaux souple, fin et fragile: le papier
-
-Appréhender le potentiel plastique du papier ( le plier, de couper, le tresser, etc.)
-
-Expérimenter et chercher des stratégies pour faire tenir l'objet en équilibre
+* Réaliser un travail en volume avec un matériaux souple, fin et fragile: le papier
+* Appréhender le potentiel plastique du papier ( le plier, de couper, le tresser, etc.)
+* Expérimenter et chercher des stratégies pour faire tenir l'objet en équilibre
 
 ## **👩🏼‍🏫 Mots et notions**
 
@@ -73,13 +68,13 @@ Expérimenter et chercher des stratégies pour faire tenir l'objet en équilibre
 
 ## **🟢 Compétences**
 
-* Mon vaisseau spatiale tient debout sans mon aide
+* **Mon vaisseau spatiale tient debout sans mon aide**
 
 Se repérer dans les étapes de la réalisation d’une production plastique et en anticiper les difficultés
 
 éventuelles
 
-* J'ai travaillé pendant 2h sur mon vaisseau spatiale
+* **J'ai travaillé pendant 2h sur mon vaisseau spatiale**
 
 Mener à terme une production individuelle dans le cadre d’un projet accompagné par le professeur
 

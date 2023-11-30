@@ -20,7 +20,7 @@ const color = config.categoriesColors[Math.abs(categorieIndex) % config.categori
 <article class="grid max-w-xs gap-2 rounded-3xl border-2 border-black bg-white p-2 sm:max-w-sm">
 	<a
 		href={url}
-		class="group relative aspect-video w-full overflow-hidden rounded-xl border-2 border-black bg-gray-100"
+		class="group relative aspect-video w-full overflow-hidden rounded-2xl border-2 border-black bg-gray-100"
 		{title}
 	>
 		<Image
@@ -43,7 +43,7 @@ const color = config.categoriesColors[Math.abs(categorieIndex) % config.categori
 
 	<a href={url} class="group flex h-20 items-center" {title}>
 		<h2
-			class="group-hover:text-links-500 line-clamp-2 font-display text-2xl transition-colors sm:text-3xl"
+			class="line-clamp-2 font-display text-2xl transition-colors group-hover:text-links-500 sm:text-3xl"
 		>
 			{title}
 		</h2>

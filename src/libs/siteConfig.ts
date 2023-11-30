@@ -20,6 +20,26 @@ export const config = {
 		{
 			fg: 'bg-yellow-400',
 			bg: 'bg-yellow-200'
+		},
+		{
+			fg: 'bg-red-400',
+			bg: 'bg-red-200'
+		},
+		{
+			fg: 'bg-cyan-400',
+			bg: 'bg-cyan-200'
+		},
+		{
+			fg: 'bg-amber-400',
+			bg: 'bg-amber-200'
+		},
+		{
+			fg: 'bg-purple-400',
+			bg: 'bg-purple-200'
+		},
+		{
+			fg: 'bg-emerald-400',
+			bg: 'bg-emerald-200'
 		}
 	],
 

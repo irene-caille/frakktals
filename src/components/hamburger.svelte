@@ -72,12 +72,12 @@
 		class="fixed inset-0 bg-black z-10 grid place-content-center"
 		transition:slide={{ duration: 200, easing: cubicIn }}
 	>
-		<ul class=" mx-auto space-y-10 w-52">
+		<ul class=" mx-auto space-y-10 text-center">
 			{#each items as title, index}
-				<li style="--_index:{index}">
+				<li style="--_index:{index}" class="px-1">
 					<a
 						href={`/${slugify(title)}`}
-						class="group relative w-full inline-block rounded-full {config.categoriesColors[
+						class="group relative min-w-[13rem] inline-block rounded-full {config.categoriesColors[
 							index % config.categoriesColors.length
 						].bg} font-display text-4xl"
 					>

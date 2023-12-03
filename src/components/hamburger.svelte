@@ -69,7 +69,7 @@
 
 {#if open}
 	<nav
-		class="fixed inset-0 bg-black z-10 grid place-content-center"
+		class="fixed inset-0 bg-black z-40 grid place-content-center"
 		transition:slide={{ duration: 200, easing: cubicIn }}
 	>
 		<ul class=" mx-auto space-y-10 text-center">

@@ -3,6 +3,7 @@ import type { GetStaticPaths, InferGetStaticPropsType } from 'astro'
 import Base from '../../layouts/base.astro'
 import { getCollection } from 'astro:content'
 import { Image, getImage } from 'astro:assets'
+import { createPlaceHolder } from '../../libs/createPlaceHolder.ts'
 
 export const getStaticPaths = (async () => {
 	const galeries = await getCollection('galeries')
@@ -17,6 +18,7 @@ type Props = InferGetStaticPropsType<typeof getStaticPaths>
 const { images } = Astro.props
 
 const fullImages = await Promise.all(images.map((image) => getImage({ src: image, width: 1000 })))
+const placeHolders = await Promise.all(images.map((image) => createPlaceHolder(image)))
 ---
 
 <Base>
@@ -33,8 +35,9 @@ const fullImages = await Promise.all(images.map((image) => getImage({ src: image
 							<Image
 								src={el}
 								alt={''}
-								class="h-full max-h-full w-auto min-w-full cursor-pointer object-cover"
+								class="h-full max-h-full w-auto min-w-full cursor-pointer bg-cover bg-no-repeat object-cover"
 								width={400}
+								style={`background-image:url("${placeHolders[i].src}")`}
 							/>
 						</a>
 					</li>

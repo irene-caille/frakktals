@@ -1,9 +1,9 @@
 ---
 import type { GetStaticPaths, InferGetStaticPropsType } from 'astro'
-import { getCollection } from 'astro:content'
-import Base from '../../layouts/base.astro'
-import { getDate } from '../../libs/date'
 import { Image } from 'astro:assets'
+import { getCollection, reference } from 'astro:content'
+import Base from '../../layouts/base.astro'
+import { createPlaceHolder } from '../../libs/createPlaceHolder.ts'
 
 export const getStaticPaths = (async () => {
 	const articles = await getCollection('articles')
@@ -18,8 +18,12 @@ type Props = InferGetStaticPropsType<typeof getStaticPaths>
 
 const { article } = Astro.props
 
-const { title, image, altImage, date, references } = article.data
+const { title, image, altImage, references } = article.data
 const { Content } = await article.render()
+const placeHolder = await createPlaceHolder(image)
+const referencesPlaceHolders = references
+	? await Promise.all(references?.map((r) => createPlaceHolder(r.image)))
+	: []
 ---
 
 <Base>
@@ -32,8 +36,9 @@ const { Content } = await article.render()
 				<Image
 					src={image}
 					alt={altImage ?? ''}
-					class="mx-auto rounded-xl border-2 border-black"
+					class="mx-auto rounded-xl border-2 border-black bg-cover bg-no-repeat"
 					width={500}
+					style={`background-image:url("${placeHolder.src}")`}
 				/>
 			</div>
 		</section>
@@ -42,7 +47,7 @@ const { Content } = await article.render()
 			version="1.1"
 			viewBox="0 0 162 92"
 			xmlns="http://www.w3.org/2000/svg"
-			class="fill-primary-300 -mt-40 h-32 w-full bg-sky-50"
+			class="-mt-40 h-32 w-full bg-sky-50 fill-primary-300"
 			preserveAspectRatio="none"
 		>
 			<path id="rect2" d="m0 0h162v92c-80.495-54.981-99.261-7.2988-162-64.538z"></path>
@@ -62,7 +67,12 @@ const { Content } = await article.render()
 								ref.image && (
 									<li class="h-full w-48 flex-none overflow-hidden rounded-xl border-2 border-black sm:w-64 md:w-96">
 										<a href={`/references/${article.slug}#${index}`} class="h-full ">
-											<Image src={ref.image} alt={ref.title ?? ''} class="h-full object-cover" />
+											<Image
+												src={ref.image}
+												alt={ref.title ?? ''}
+												class="h-full bg-cover bg-no-repeat object-cover"
+												style={`background-image:url("${referencesPlaceHolders[index].src}")`}
+											/>
 										</a>
 									</li>
 								)

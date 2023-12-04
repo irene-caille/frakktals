@@ -20,13 +20,15 @@ const placeHolder = image && (await createPlaceHolder(image))
 >
 	{
 		image && (
-			<Image
-				src={image}
-				alt={title ?? ''}
-				width={900}
-				class=" mx-auto w-auto grow overflow-auto bg-contain bg-center bg-no-repeat object-center "
-				style={`background-image:url("${placeHolder?.src}")`}
-			/>
+			<figure class="relative grid h-full w-full place-content-center overflow-auto">
+				<Image
+					src={image}
+					alt={title ?? ''}
+					width={900}
+					class=" h-auto max-h-full w-auto max-w-full overflow-auto bg-cover bg-no-repeat "
+					style={`background-image:url("${placeHolder?.src}")`}
+				/>
+			</figure>
 		)
 	}
 	{

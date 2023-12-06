@@ -12,24 +12,22 @@ references:
   - {}
 ---
 
-## 👨🏽‍🎨👩🏽‍🎨 Que faut-il faire?
+## **👨🏽‍🎨👩🏽‍🎨 Que faut-il faire?**
 
-> Tu réaliseras un objet du futur en volume. C'est à dire un objet qui n'existe pas encore! Bien sûr, tu pourras t'inspirer d'objets existants ou tirés de livres, de films, etc.
-
-> Ton objet sera accompagné d'un mode d'emploi qui comportera au moins les informations suivantes:\
+> Tu réaliseras un objet du futur en volume. C'est à dire un objet qui n'existe pas encore! Bien sûr, tu pourras t'inspirer d'objets existants ou tirés de livres, de films, etc.Ton objet sera accompagné d'un mode d'emploi qui comportera au moins les informations suivantes:\
 > Le nom de l’objet \
 > Son utilité (à quoi sert-il?)\
 > Son mode d'emploi (comment s'en servir?)
 
 ## **💡Bon à savoir**
 
-**Vous réfléchirez au design de votre objet. Posez-vous les bonnes questions! **
+\*\*Vous réfléchirez au design de votre objet. Posez-vous les bonnes questions! \*\*
 
 *Par exemple, les antennes sont-elles des éléments que nous trouverons dans le futur?*
 
-## 🧐 Modalités
+## **🧐 Modalités**
 
--Maquette ou échelle 1 
+-Maquette ou échelle 1
 
 -Travail en groupe (3 maximum)
 
@@ -38,9 +36,9 @@ references:
 -Scotch interdit (sauf si caché)
  
 
-## 🟢 Auto-évaluation                                  TBM MS MF MI
+## **🟢 Auto-évaluation                                  TBM MS MF MI**
 
-* J’ai été attentif.ve et investi.e durant toute la séquence et cela se voit à travers mon travail 
+* J’ai été attentif.ve et investi.e durant toute la séquence et cela se voit à travers mon travail
 
 Faire preuve d’autonomie, d’initiative, de responsabilité, d’engagement et d’esprit critique dans la conduite d’un projet artistique.
 
@@ -54,17 +52,17 @@ Dire avec un vocabulaire précis (...)
 
 * Bonus: Mon travail est solidement assemblé
 
-## 👩🏼‍🏫 Qu'apprend-on?
+## **👩🏼‍🏫 Qu'apprend-on?**
 
 * Interroger les interactions entre la forme et la fonction
 * Inventer un objet, le concevoir en volume et imaginer son emploi
 * Initier les élèves aux concepts de base de la conception, tels que l'ergonomie, la fonctionnalité et l'utilité de l'objet
 * Anticipation, science-fiction
 
-## 📚 Point du programme
+## **📚 Point du programme**
 
-La matérialité de l’œuvre ; l’objet et l’œuvre 
+**La matérialité de l’œuvre ; l’objet et l’œuvre**
 
 » Les représentations et statuts de l’objet en art: la place de l’objet non artistique dans l’art; l’œuvre comme objet matériel, objet d’art, objet d’étude.
 
-## 👀 Références
+## **👀 Références**

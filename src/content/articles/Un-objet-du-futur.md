@@ -14,14 +14,14 @@ references:
 
 ## **👨🏽‍🎨👩🏽‍🎨 Que faut-il faire?**
 
-> Tu réaliseras un objet du futur en volume. C'est à dire un objet qui n'existe pas encore! Bien sûr, tu pourras t'inspirer d'objets existants ou tirés de livres, de films, etc.Ton objet sera accompagné d'un mode d'emploi qui comportera au moins les informations suivantes:\
+> Tu réaliseras un objet du futur en volume. C'est-à-dire un objet qui n'existe pas encore! Bien sûr, tu pourras t'inspirer d'objets existants ou tirés de livres, de films, etc.Ton objet sera accompagné d'un mode d'emploi qui comportera au moins les informations suivantes:\
 > Le nom de l’objet \
 > Son utilité (à quoi sert-il?)\
 > Son mode d'emploi (comment s'en servir?)
 
 ## **💡Bon à savoir**
 
-\*\*Vous réfléchirez au design de votre objet. Posez-vous les bonnes questions! \*\*
+**Vous réfléchirez au design de votre objet. Posez-vous les bonnes questions! **
 
 *Par exemple, les antennes sont-elles des éléments que nous trouverons dans le futur?*
 
@@ -38,19 +38,19 @@ references:
 
 ## **🟢 Auto-évaluation                                  TBM MS MF MI**
 
-* J’ai été attentif.ve et investi.e durant toute la séquence et cela se voit à travers mon travail
+* **J’ai été attentif.ve et investi.e durant toute la séquence et cela se voit à travers mon travail**
 
 Faire preuve d’autonomie, d’initiative, de responsabilité, d’engagement et d’esprit critique dans la conduite d’un projet artistique.
 
-* Mon objet est novateur, c'est à dire qu'il n'existe pas aujourd'hui
+* **Mon objet est novateur, c'est à dire qu'il n'existe pas aujourd'hui**
 
 Confronter intention et réalisation dans la conduite d’un projet pour l’adapter et le réorienter, s’assurer de la dimension artistique de celui-ci.
 
-* Le mode d’emploi est clair et bien lisible, c’est un objet qui donne envie d’être consulté
+* **Le mode d’emploi est clair et bien lisible, c’est un objet qui donne envie d’être consulté**
 
 Dire avec un vocabulaire précis (...)
 
-* Bonus: Mon travail est solidement assemblé
+* **Bonus: Mon travail est solidement assemblé**
 
 ## **👩🏼‍🏫 Qu'apprend-on?**
 

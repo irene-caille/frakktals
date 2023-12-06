@@ -18,11 +18,12 @@ type Props = InferGetStaticPropsType<typeof getStaticPaths>
 
 const { article } = Astro.props
 
-const { title, image, altImage, references } = article.data
+const { title, image, altImage, references: rawReferences } = article.data
+const references = rawReferences?.filter((r) => r.image)
 const { Content } = await article.render()
 const placeHolder = await createPlaceHolder(image)
 const referencesPlaceHolders = references
-	? await Promise.all(references?.map((r) => createPlaceHolder(r.image)))
+	? await Promise.all(references?.map((r) => createPlaceHolder(r.image!)))
 	: []
 ---
 
@@ -57,7 +58,7 @@ const referencesPlaceHolders = references
 				<Content />
 			</section>
 			{
-				references && references.length && (
+				references && references.length > 0 && (
 					<ul
 						id="references"
 						class=" mx-auto my-16 flex h-32 w-full gap-4 overflow-x-scroll pb-4 pl-8 pr-4 text-2xl  sm:h-48 sm:gap-8 sm:pl-16 sm:pr-8 md:h-64 md:gap-24 md:pl-60 md:pr-20"

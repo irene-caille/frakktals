@@ -176,10 +176,10 @@ export default defineConfig({
 						label: 'Références',
 						list: true,
 						ui: {
-							itemProps: (item) => {
-								// Field values are accessed by item?.<Field name>
-								return { label: item?.title }
-							}
+							// itemProps: (item) => {
+							// 	// Field values are accessed by item?.<Field name>
+							// 	return { label: item?.title }
+							// }
 						},
 						fields: [
 							{

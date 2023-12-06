@@ -3,7 +3,7 @@ import '@fontsource/chewy'
 import '@fontsource/roboto'
 import '@fontsource/roboto/400-italic.css'
 import '@fontsource/roboto/700.css'
-import type { GetStaticPaths, InferGetStaticParamsType, InferGetStaticPropsType } from 'astro'
+import type { GetStaticPaths, InferGetStaticPropsType } from 'astro'
 import { getCollection } from 'astro:content'
 import Slide from '../../components/slide.astro'
 export const getStaticPaths = (async () => {
@@ -17,7 +17,8 @@ export const getStaticPaths = (async () => {
 
 type Props = InferGetStaticPropsType<typeof getStaticPaths>
 const { slug } = Astro.params
-const { references, title } = Astro.props
+const { references: rawReferences, title } = Astro.props
+const references = rawReferences.filter((r) => r.image !== undefined)
 ---
 
 <!doctype html>

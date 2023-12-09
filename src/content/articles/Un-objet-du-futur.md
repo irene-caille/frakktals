@@ -5,7 +5,9 @@ category: src/content/categories/3eme.md
 image: /src/content/assets/1 Retour vers le futur objet.gif
 altImage: Marty et Doc dans Retour vers le Futur regardent la DeLorean avancer très vite
 references:
-  - {}
+  - image: /src/content/assets/4A.webp
+    title: Inventions- Carnet de recherches
+    author: Léonard de Vinci 1452-1519
   - {}
   - {}
   - {}
@@ -14,7 +16,7 @@ references:
 
 ## **👨🏽‍🎨👩🏽‍🎨 Que faut-il faire?**
 
-> **Tu réaliseras un objet du futur en volume. **\
+> \*\*Tu réaliseras un objet du futur en volume. \*\*\
 > C'est-à-dire un objet qui n'existe pas encore! Bien sûr, tu pourras t'inspirer d'objets existants ou tirés de livres, de films, etc.\
 > **Ton objet sera accompagné d'un mode d'emploi qui comportera au moins les informations suivantes:**\
 > Le nom de l’objet \
@@ -23,7 +25,7 @@ references:
 
 ## **💡Bon à savoir**
 
-**Vous réfléchirez au design de votre objet. Posez-vous les bonnes questions! **
+\*\*Vous réfléchirez au design de votre objet. Posez-vous les bonnes questions! \*\*
 
 *Par exemple, les antennes sont-elles des éléments que nous trouverons dans le futur?*
 

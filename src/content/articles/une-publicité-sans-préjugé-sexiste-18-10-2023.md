@@ -7,6 +7,8 @@ altImage: >-
   illustration d'une petite fille en tutu mécontente et d'un petit garçon avec
   un ballon de foot mécontent également
 references:
+  - image: /src/content/assets/pub.jpeg
+    title: 'Publicité prise dans un magazine de jouets '
   - image: /src/content/assets/0e328446-1c59-424d-89f0-21db1fdde0a7.jpeg
   - image: /src/content/assets/3c2a1bf9-c3ac-44fb-addf-0dd8dca939bd.jpeg
   - image: /src/content/assets/6f1575f6-4b6a-4b7d-b147-c7f366135017.jpeg

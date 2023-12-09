@@ -11,7 +11,9 @@ references:
   - image: /src/content/assets/5A.webp
     title: Croquis d'invention
     author: Léonard de Vinci
-  - {}
+  - image: /src/content/assets/6A.jpeg
+    title: Croquis d'inventions
+    author: Léonard de Vinci
   - {}
   - {}
 ---

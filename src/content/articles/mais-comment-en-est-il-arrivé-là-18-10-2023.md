@@ -2,17 +2,19 @@
 title: Mais comment en est-il arrivé là?
 date: 2023-10-18T16:05:07.387Z
 category: src/content/categories/6eme.md
-image: /src/content/assets/sequences/mais-comment-en-est-il-arrivé-là/keith-haring-grande.png
+image: /src/content/assets/keith-haring-grande.png
 references:
-  - image: /src/content/assets/sequences/mais-comment-en-est-il-arrivé-là/personnage-keith-haring-grande.jpeg
+  - image: /src/content/assets/personnage-keith-haring-grande.jpeg
     title: D'après l'affiche du festival de jazz de Montreux
     author: Keith Haring
-  - image: /src/content/assets/sequences/mais-comment-en-est-il-arrivé-là/keith-haring-grande.jpeg
+  - image: /src/content/assets/keith-haring-grande.jpeg
     title: 'Affiche réalisée pour le festival de jazz de Montreux, 1983'
     author: Keith Haring
 ---
 
 ## **À l'aide une petite bande dessinée, vous montrerez comment et pourquoi ce personnage est tout entortillé...**
+
+![](/src/content/assets/personnage-keith-haring-grande.jpeg)
 
 ## **🔎 Modalité**
 
@@ -20,10 +22,12 @@ references:
 
 **Voici un exemple de cases de bande dessinée**
 
+![](/src/content/assets/cases-grande.jpeg)
+
 ## **🟢 Auto-évaluation TBM MS MF MI**
 
-1. **On comprend facilement la raison pour laquelle le personnage est entortillé** _Adapter son projet en fonction des contraintes de réalisation et de la prise en compte du spectateur_
-2. **J'ai été calme et impliqué** _Compétence transvérsale: Vivre ensemble_
+1. **On comprend facilement la raison pour laquelle le personnage est entortillé** *Adapter son projet en fonction des contraintes de réalisation et de la prise en compte du spectateur*
+2. **J'ai été calme et impliqué** *Compétence transvérsale: Vivre ensemble*
 
 ## 👩🏼‍🏫 On apprend quoi?
 

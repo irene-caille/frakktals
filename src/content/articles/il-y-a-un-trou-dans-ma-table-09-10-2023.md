@@ -2,7 +2,7 @@
 title: Il y a un trou dans ma table
 date: 2023-10-09T10:13:24.076Z
 category: src/content/categories/5eme.md
-image: /src/content/assets/sequences/il-y-a-un-trou-dans-ma-table/troutable.webp
+image: /src/content/assets/troutable.webp
 references:
   - image: /src/content/assets/saint-ignace-de-loyola-2.jpg
     title: 'Fresque '

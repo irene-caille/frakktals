@@ -4,6 +4,10 @@ date: 2023-10-18T16:05:07.387Z
 category: src/content/categories/6eme.md
 image: /src/content/assets/keith-haring-grande.png
 references:
+  - image: /src/content/assets/Bulles exemples Grande.jpeg
+    title: 'De haut en bas: Bulle de dialogue, bulle de pensée et onomatopée'
+  - image: /src/content/assets/cases-grande.jpeg
+    title: Voici un exemple de cases de bande dessinée
   - image: /src/content/assets/personnage-keith-haring-grande.jpeg
     title: D'après l'affiche du festival de jazz de Montreux
     author: Keith Haring
@@ -18,11 +22,7 @@ references:
 
 ## **🔎 Modalité**
 
-1h30 de pratique 4 cases minimum (qui peuvent etre tracées à main levée et prendre la forme que vous souhaitez)
-
-**Voici un exemple de cases de bande dessinée**
-
-![](/src/content/assets/cases-grande.jpeg)
+1h30 de pratique 4 cases minimum (qui peuvent être tracées à main levée et prendre la forme que vous souhaitez)
 
 ## **🟢 Auto-évaluation TBM MS MF MI**
 
@@ -35,4 +35,5 @@ references:
 
 ## **📚 Point de programme**
 
-> **La narration visuelle**les compositions plastiques, en deux et en trois dimensions, à des fins de récit ou de témoignage, l’organisation des images fixes et animées pour raconter
+> **La narration visuelle**\
+> Les compositions plastiques, en deux et en trois dimensions, à des fins de récit ou de témoignage, l’organisation des images fixes et animées pour raconter

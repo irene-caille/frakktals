@@ -2,25 +2,23 @@
 title: Une publicité sans préjugé sexiste
 date: 2023-10-18T19:24:18.177Z
 category: src/content/categories/6eme.md
-image: /src/content/assets/couv-prejuges-sexistes.jpeg
+image: /src/content/assets/sequences/pub-sans-prejuge/couv-prejuges-sexistes.jpeg
 altImage: >-
   illustration d'une petite fille en tutu mécontente et d'un petit garçon avec
   un ballon de foot mécontent également
 references:
-  - image: /src/content/assets/0e328446-1c59-424d-89f0-21db1fdde0a7.jpeg
-  - image: /src/content/assets/3c2a1bf9-c3ac-44fb-addf-0dd8dca939bd.jpeg
-  - image: /src/content/assets/6f1575f6-4b6a-4b7d-b147-c7f366135017.jpeg
-  - image: /src/content/assets/8f1ee5f3-d4d1-4ec2-acdb-959a4fd10524.jpeg
-  - image: /src/content/assets/8f8023cb-d815-4f6f-8653-b45b580b056f.jpeg
-  - image: /src/content/assets/7569f53b-236b-4eb7-adac-b0b4182335c2.jpeg
-  - image: /src/content/assets/274e3f32-ae0f-4ec6-bf4d-b2991eff6389.jpeg
-  - image: /src/content/assets/96041c7f-bac8-42b4-aab2-0769a8351a06.jpeg
-  - image: /src/content/assets/c5534f2a-53bc-45f7-b0c9-9e1f37c077f6.jpeg
-  - image: /src/content/assets/cb551584-f8bf-4500-aec0-e6cc27b3e4ba.jpeg
-  - image: /src/content/assets/robot.jpeg
+  - image: /src/content/assets/sequences/pub-sans-prejuge/0e328446-1c59-424d-89f0-21db1fdde0a7.jpeg
+  - image: /src/content/assets/sequences/pub-sans-prejuge/3c2a1bf9-c3ac-44fb-addf-0dd8dca939bd.jpeg
+  - image: /src/content/assets/sequences/pub-sans-prejuge/6f1575f6-4b6a-4b7d-b147-c7f366135017.jpeg
+  - image: /src/content/assets/sequences/pub-sans-prejuge/8f1ee5f3-d4d1-4ec2-acdb-959a4fd10524.jpeg
+  - image: /src/content/assets/sequences/pub-sans-prejuge/8f8023cb-d815-4f6f-8653-b45b580b056f.jpeg
+  - image: /src/content/assets/sequences/pub-sans-prejuge/7569f53b-236b-4eb7-adac-b0b4182335c2.jpeg
+  - image: /src/content/assets/sequences/pub-sans-prejuge/274e3f32-ae0f-4ec6-bf4d-b2991eff6389.jpeg
+  - image: /src/content/assets/sequences/pub-sans-prejuge/96041c7f-bac8-42b4-aab2-0769a8351a06.jpeg
+  - image: /src/content/assets/sequences/pub-sans-prejuge/c5534f2a-53bc-45f7-b0c9-9e1f37c077f6.jpeg
+  - image: /src/content/assets/sequences/pub-sans-prejuge/cb551584-f8bf-4500-aec0-e6cc27b3e4ba.jpeg
+  - image: /src/content/assets/sequences/pub-sans-prejuge/robot.jpeg
 ---
-
-![](/src/content/assets/pub.jpeg)
 
 ## 💬 Discutons un peu
 
@@ -32,16 +30,16 @@ references:
 
 **C’est pour les filles ou pour les garçons ?**
 
-* La couleur bleue
-* Une voiture
-* Une caisse à outil
-* Un tablier
-* La couleur rose
-* La danse
-* Le football
-* Un aspirateur
-* Une princesse
-* Une poupée
+- La couleur bleue
+- Une voiture
+- Une caisse à outil
+- Un tablier
+- La couleur rose
+- La danse
+- Le football
+- Un aspirateur
+- Une princesse
+- Une poupée
 
 **🖌 Après cet échange, je vous propose de réaliser une publicité sans préjugé sexiste à partir d'un des jouets suivants**
 
@@ -60,9 +58,9 @@ references:
 
 ## 🔎 Modalités
 
-* Le travail à réaliser en 2h30
-* Possibilité de travailler en binôme
-* Vous veillerez à ajouter un slogan
+- Le travail à réaliser en 2h30
+- Possibilité de travailler en binôme
+- Vous veillerez à ajouter un slogan
 
 ## 🟢 Je m’évalue
 
@@ -74,11 +72,11 @@ references:
 
 ## 🧐 On apprend quoi ?
 
-* Concevoir une image publicitaire
-* Faire passer un message à un spectateur
-* Appréhender la lecture des publicités
-* Exprimer ses idées et écouter celles des autres
-* Lutter contre les préjugés qui concernent les filles et les garçons
+- Concevoir une image publicitaire
+- Faire passer un message à un spectateur
+- Appréhender la lecture des publicités
+- Exprimer ses idées et écouter celles des autres
+- Lutter contre les préjugés qui concernent les filles et les garçons
 
 ## 👩🏼‍🏫 Mots et notions
 
@@ -86,7 +84,7 @@ references:
 
 ## 🤔 Questions à se poser
 
-* Quel est mon objet, mon slogan ?
-* Comment ai-je fait pour lutter contre les préjugés ?
-* Qu’est-ce que je pense des préjugés ?
-* Est-ce que ce cours m’a éventuellement fait changer d’avis ?
+- Quel est mon objet, mon slogan ?
+- Comment ai-je fait pour lutter contre les préjugés ?
+- Qu’est-ce que je pense des préjugés ?
+- Est-ce que ce cours m’a éventuellement fait changer d’avis ?

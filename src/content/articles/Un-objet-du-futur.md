@@ -14,7 +14,9 @@ references:
   - image: /src/content/assets/6A.jpeg
     title: Croquis d'inventions
     author: Léonard de Vinci
-  - {}
+  - image: /src/content/assets/2A.jpg
+    title: 'Reconstitution du chevalier mécanique '
+    author: D'après une invention de Léonard de Vinci
   - {}
 ---
 

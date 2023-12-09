@@ -8,7 +8,9 @@ references:
   - image: /src/content/assets/4A.webp
     title: Inventions- Carnet de recherches
     author: Léonard de Vinci 1452-1519
-  - {}
+  - image: /src/content/assets/5A.webp
+    title: Croquis d'invention
+    author: Léonard de Vinci
   - {}
   - {}
   - {}

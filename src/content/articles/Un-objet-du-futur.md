@@ -21,6 +21,18 @@ references:
     title: Chindogu
     author: 'Kenji Kawakami '
     other: 'Série d''objets réalisés à partir des années 80, au Japon'
+  - image: /src/content/assets/21.jpeg
+    title: Chindogu
+    author: 'Kenji Kawakami '
+  - image: /src/content/assets/31.jpeg
+    title: Chindogu
+    author: 'Kenji Kawakami '
+  - image: /src/content/assets/51.jpeg
+    title: 'Photogramme du film Minority Report '
+    author: 'Steven Spielberg, 2002'
+  - image: /src/content/assets/61.gif
+    title: Extrait du film Minority Report
+    author: 'Steven Spielberg, 2002'
 ---
 
 ## **👨🏽‍🎨👩🏽‍🎨 Que faut-il faire?**

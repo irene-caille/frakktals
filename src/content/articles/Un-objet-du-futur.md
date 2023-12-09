@@ -17,7 +17,10 @@ references:
   - image: /src/content/assets/2A.jpg
     title: 'Reconstitution du chevalier mécanique '
     author: D'après une invention de Léonard de Vinci
-  - {}
+  - image: /src/content/assets/11.jpeg
+    title: Chindogu
+    author: 'Kenji Kawakami '
+    other: 'Série d''objets réalisés à partir des années 80, au Japon'
 ---
 
 ## **👨🏽‍🎨👩🏽‍🎨 Que faut-il faire?**

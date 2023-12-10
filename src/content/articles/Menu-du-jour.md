@@ -2,7 +2,7 @@
 title: Menu du jour
 date: 2023-12-09T23:00:00.000Z
 category: src/content/categories/4eme.md
-image: /src/content/assets/1Menu du jour/Nourriture burger Grande.jpeg
+image: /src/content/assets/1Menu du jour/Nourriture burger Grande1.jpeg
 references:
   - image: >-
       /src/content/assets/1Menu du jour/Black and Yellow Modern Photo Fast Food

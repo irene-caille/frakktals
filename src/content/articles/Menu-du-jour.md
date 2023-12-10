@@ -9,18 +9,21 @@ references:
       Menu Grande.jpeg
     title: Menu du jour
   - image: /src/content/assets/1Menu du jour/Claes Oldenburg glace Grande.jpeg
-    title: >-
-      Dropped Ice Cream Cone, 2001 Un cône monumental de crème glacée semble
-      être tombé sur le bord de la terrasse de l'immeuble et la vanille est en
-      train de fondre sur la façade. La forme a été choisie en écho aux éléments
-      commerciaux et publicitaires de la rue mais également aux dômes des
-      architectures environnantes.
+    title: 'Dropped Ice Cream Cone, 2001'
     author: ' OLDENBURG Claes (né en 1929) & VAN BRUGGEN Coosje (1942-2009)'
     other: >-
       Matériaux: aciers, plastique et balsa peints, H : 12,1 m, D : 5,8 m,
       Cologne (Allemagne), Centre commercial Neumarkt.
-  - {}
-  - {}
+  - image: /src/content/assets/1Menu du jour/Oldenburg glace Grande.jpeg
+    title: 'Dropped Ice Cream Cone, 2001'
+    author: '  OLDENBURG Claes (né en 1929) & VAN BRUGGEN Coosje'
+  - image: /src/content/assets/1Menu du jour/Oldenburg burger Grande.jpeg
+    title: 'Floor Burger, 1962'
+    author: OLDENBURG Claes (né en 1929)
+    other: >-
+      toile remplie de mousse de caoutchouc et de boîtes en carton, peinture
+      acrylique, 132,1x213,4x213,4 cm, Toronto, Collection Art Gallery of
+      Ontario
   - {}
   - {}
   - {}

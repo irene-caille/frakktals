@@ -138,6 +138,7 @@ export default defineConfig({
 				name: 'articles',
 				label: 'Articles',
 				path: 'src/content/articles',
+				format:'mdx',
 				fields: [
 					{
 						type: 'string',

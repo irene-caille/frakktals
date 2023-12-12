@@ -32,3 +32,4 @@ references:
       métal, 52,7x76,5x37,3 cm, New-York, MOMA.
 ---
 
+![](/src/content/assets/1menudujour/menu.jpeg)

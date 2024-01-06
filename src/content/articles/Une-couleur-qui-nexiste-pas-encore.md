@@ -2,7 +2,7 @@
 title: Une couleur qui n’existe pas encore
 date: 2024-01-05T23:00:00.000Z
 category: src/content/categories/6eme.md
-image: /src/content/assets/Une couleur qui n'existe pas encore/7496.jpg
+image: /src/content/assets/Une couleur qui n'existe pas encore/Irisé 2 Grande.jpeg
 references:
   - image: >-
       /src/content/assets/Une couleur qui n'existe pas

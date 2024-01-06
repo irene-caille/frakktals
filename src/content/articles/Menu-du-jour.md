@@ -33,3 +33,52 @@ references:
 ---
 
 ![](/src/content/assets/1menudujour/menu.jpeg)
+
+## Modalités
+
+3heures de pratique
+
+Travail en volume 
+
+Matériaux au choix ( les matériaux utilisés doivent être méconnaissables)
+
+Taille réelle
+
+## Compétences
+
+Votre plat est-il appétissant ? 
+
+Prendre en compte les conditions de la réception de sa production dès la démarche de création, en prêtant attention aux modalités de sa présentation
+
+Reconnaît-on facilement le plat représenté? 
+
+Confronter intention et réalisation dans la conduite d’un projet pour l’adapter et le réorienter, s’assurer de la dimension artistique de celui-ci
+
+J'ai su faire preuve d’autonomie, d’initiative, de responsabilité et d’engagement
+
+Faire preuve d’autonomie, d’initiative, de responsabilité, d’engagement et d’esprit critique dans la conduite d’un projet artistique
+
+## On apprend quoi?
+
+Réfléchir aux éléments afin de susciter l'envie du spectateur ( forme, texture, couleur)
+
+Sélectionner et transformer des matériaux
+
+Chercher la ressemblance à partir d'un référent
+
+## Mots et notions 
+
+réalisme/ hyperréalisme, imitation, ressemblance, référent
+
+couleur, texture, forme
+
+## Point de programme
+
+Les qualités physiques des matériaux : les matériaux et leur potentiel de signification dans une intention artistique
+
+## Objectifs
+
+> Exploitation dans une création plastique du dialogue entre les instruments et la matière, en tirant parti des qualités physiques des matériaux, en faisant de la matérialité une question à explorer, un enjeu dans la perception comme l’interprétation de l’œuvre.
+
+Références
+

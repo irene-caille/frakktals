@@ -1,7 +1,7 @@
 ---
 title: Dessiner sous la contrainte- Partie 1
 date: 2024-01-05T23:00:00.000Z
-category: src/content/categories/4eme.md
+category: src/content/categories/6eme.md
 image: /src/content/assets/Dessiner sous la contrainte/tenor.gif
 ---
 
@@ -23,7 +23,6 @@ Un ou une camarade accepte de poser. Vous allez le ou la dessiner avec différen
 
 * Amener les élèves à s’éloigner des stéréotypes dans le domaine des arts plastiques et privilégier l'expérience créative.
 * Questionner l'écart vis à vis du référent
-
 
 ## 📚 Programme
 

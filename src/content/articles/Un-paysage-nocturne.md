@@ -18,58 +18,51 @@ references:
     title: Le nouveau-né
     author: Georges de la Tour
     other: '1648 '
-  - {}
-  - {}
+  - image: /src/content/assets/Un paysage nocturne au stylo bille/Gravure Dürer.webp
+    title: Melencolia
+    author: Albrecht Dürer
+    other: '1614, gravure'
+  - image: /src/content/assets/Un paysage nocturne au stylo bille/Goya.webp
+    title: 'Détail de la série Los caprichos '
+    author: Fancisco de Goya
+    other: 18 ème siècle. Los caprichos est une série de 80 gravures
 ---
 
-## Que faut-il faire?
+## 🤔 Que faut-il faire?
 
-Vous réaliserez un paysage nocturne avec un stylo bille
+Vous réaliserez un paysage nocturne avec **un seul** stylo bille
 
-## Modalités
+## 🖌 Modalités
 
-Travail à réaliser avec un stylo bille d'une seule couleur ( noir ou bleu de préférence)
+* Travail à réaliser avec un stylo bille d'une seule couleur ( noir ou bleu de préférence)
+* Sur papier blanc en format A5
+* 45 minutes de pratique
+* Individuel
 
-Sur papier blanc en format A5
+## 📝 Qu'apprend-on?
 
-45 minutes de pratique
+* Appréhender la représentation de l'ombre et de la lumière dans un travail bidimensionnel
+* Prendre en compte le blanc de la feuille pour représenter la lumière
 
-Individuel
-
-## Qu'apprend-on?
-
-Appréhender la représentation de l'ombre et de la lumière dans un travail bidimensionnel
-
-Prendre en compte le blanc de la feuille pour représenter la lumière
-
-## Compétences
+## 🟢 Compétences
 
 M**ettre en oeuvre un projet artistique**
 
-Adapter son projet en fonction des contraintes de réalisation
+* Adapter son projet en fonction des contraintes de réalisation
+* Se repérer dans les étapes de la réalisation d’une production plastique individuelle
 
-Se repérer dans les étapes de la réalisation d’une production plastique individuelle
-
-## Mots/ notions
+## 🗣 Mots/ notions
 
 Monochrome, contraste, clair-obscur, technique de la gravure, nuances
 
-## Programme
+## 📚 Programme
 
-La matérialité de la production plastique et la sensibilité aux constituants de l’œuvre
+**La matérialité de la production plastique et la sensibilité aux constituants de l’œuvre**
 
-» La matérialité et la qualité de la couleur:
+La matérialité et la qualité de la couleur
 
-L*a compréhension des dimensions sensorielles de la couleur, notamment les interrelations entre quantité ( formats, surfaces, étendue, environnement) et qualité ( teintes, intensité, nuances, lumière...).*
+> La compréhension des dimensions sensorielles de la couleur, notamment les interrelations entre quantité ( formats, surfaces, étendue, environnement) et qualité ( teintes, intensité, nuances, lumière...).
 
-## Références
-
-Oeuvre n°1: La vocation de Saint Matthieu, Le Caravage, 16ème siècle
-
-Oeuvre n°2: Le nouveau-né, Georges de la Tour, 17ème siècle
-
-Oeuvre n°3: Melancolia, Albrecht Dürer, 16ème siècle
-
-Oeuvre n°4: Image tirée de l’ouvrage Los Caprichos, Francisco Goya, 18ème siècle
+## 👀 Références
 
 Techniques de la gravure: [https://www.youtube.com/watch?v=mxkkmBS-r34](https://www.youtube.com/watch?v=mxkkmBS-r34)

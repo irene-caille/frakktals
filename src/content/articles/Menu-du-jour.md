@@ -4,6 +4,7 @@ date: 2023-12-09T23:00:00.000Z
 category: src/content/categories/4eme.md
 image: /src/content/assets/1menudujour/Nourriture burger Grande1.jpeg
 references:
+  - {}
   - image: /src/content/assets/1menudujour/menu.jpeg
   - image: /src/content/assets/1menudujour/Claes Oldenburg glace Grande.jpeg
     title: 'Dropped Ice Cream Cone, 2001'

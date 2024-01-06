@@ -65,15 +65,15 @@ references:
 
 * **J’ai été attentif.ve et investi.e durant toute la séquence et cela se voit à travers mon travail**
 
-Faire preuve d’autonomie, d’initiative, de responsabilité, d’engagement et d’esprit critique dans la conduite d’un projet artistique.
+*Faire preuve d’autonomie, d’initiative, de responsabilité, d’engagement et d’esprit critique dans la conduite d’un projet artistique*
 
 * **Mon objet est novateur, c'est à dire qu'il n'existe pas aujourd'hui**
 
-Confronter intention et réalisation dans la conduite d’un projet pour l’adapter et le réorienter, s’assurer de la dimension artistique de celui-ci.
+*Confronter intention et réalisation dans la conduite d’un projet pour l’adapter et le réorienter, s’assurer de la dimension artistique de celui-ci*
 
 * **Le mode d’emploi est clair et bien lisible, c’est un objet qui donne envie d’être consulté**
 
-Dire avec un vocabulaire précis (...)
+*Dire avec un vocabulaire précis (...)*
 
 * **Bonus: Mon travail est solidement assemblé**
 
@@ -86,8 +86,8 @@ Dire avec un vocabulaire précis (...)
 
 ## **📚 Point du programme**
 
-**La matérialité de l’œuvre ; l’objet et l’œuvre**
+> **La matérialité de l’œuvre ; l’objet et l’œuvre**
 
-Les représentations et statuts de l’objet en art: la place de l’objet non artistique dans l’art; l’œuvre comme objet matériel, objet d’art, objet d’étude.
+> Les représentations et statuts de l’objet en art: la place de l’objet non artistique dans l’art; l’œuvre comme objet matériel, objet d’art, objet d’étude.
 
 ## **👀 Références**

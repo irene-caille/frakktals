@@ -7,7 +7,7 @@ image: >-
   Grande.jpeg
 ---
 
-## Que faut-il faire?
+## 🤨 Que faut-il faire?
 
 **Vous êtes un ou une scientifique et vous décidez d’inventer une couleur qui n’existe pas encore.**
 
@@ -15,7 +15,7 @@ Sur votre table, vous avez du rouge, du bleu, du jaune, du noir et du blanc… a
 
 Essayez, expérimentez, n’ayez pas peur de vous tromper! Et surtout, notez les mélanges que vous avez effectués à côté de vos expériences. Vous pouvez même leur trouver de jolis noms!
 
-## Modalités
+## 🔎 Modalités
 
 20 minutes de pratique
 
@@ -23,27 +23,27 @@ Gouache (couleurs primaires), pinceaux et feuille de papier
 
 25 minutes de pratique
 
-## Et ensuite?
+## 🤔 Et ensuite?
 
 **Bravo! Vous avez inventé une couleur qui n’existe pas encore!**
 
 Vous avez 20 minutes pour réaliser une peinture de votre choix, avec les couleurs inventées par vous et les camarades qui sont assis à votre îlot.
 
-## Qu’apprend-on? 
+## 👩🏼‍🏫 Qu’apprend-on? 
 
 Découvrir les mélanges de couleur grâce à l'expérimentation
 
-## Mots et notions
+## 📕 Mots et notions
 
 Mélanges, couleurs primaires, couleurs secondaires, cercle chromatique
 
-## Compétences
+## 🟢 Compétences
 
 **Expérimenter, produire, créer**
 
 > Choisir, organiser et mobiliser des gestes, des outils et des matériaux en fonction des effets qu’ils produisent.
 
-## Programme
+## 📚 Programme
 
 **La matérialité de la production plastique et la sensibilité aux constituants de l’œuvre**
 

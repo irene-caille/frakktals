@@ -2,9 +2,7 @@
 title: Un paysage nocturne avec un stylo bille
 date: 2024-01-05T23:00:00.000Z
 category: src/content/categories/6eme.md
-image: >-
-  /src/content/assets/Un paysage nocturne au stylo bille/Nuit étoilée Van
-  Gogh.webp
+image: /src/content/assets/Un paysage nocturne au stylo bille/Gotham.webp
 references:
   - image: >-
       /src/content/assets/Un paysage nocturne au stylo bille/Caravage Vocation

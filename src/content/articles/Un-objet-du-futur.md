@@ -35,30 +35,32 @@ references:
     author: 'Steven Spielberg, 2002'
 ---
 
-## **👨🏽‍🎨👩🏽‍🎨 Que faut-il faire?**
+## 👨🏽‍🎨👩🏽‍🎨 Que faut-il faire?
 
-#### **Tu réaliseras un objet du futur en volume. ** *C'est-à-dire un objet qui n'existe pas encore! Bien sûr, tu pourras t'inspirer d'objets existants ou tirés de livres, de films, etc.*
+**Tu réaliseras un objet du futur en volume**
 
-#### &#x20;**Ton objet sera accompagné d'un mode d'emploi qui comportera au moins les informations suivantes:** *Le nom de l’objet * *Son utilité (à quoi sert-il?)* *Son mode d'emploi (comment s'en servir?)*
+*C'est-à-dire un objet qui n'existe pas encore! Bien sûr, tu pourras t'inspirer d'objets existants ou tirés de livres, de films, etc.*
 
-## **💡Bon à savoir**
+**Ton objet sera accompagné d'un mode d'emploi qui comportera au moins les informations suivantes :**
 
-#### **Vous réfléchirez au design de votre objet. Posez-vous les bonnes questions! **
+* Le nom de l’objet
+* Son utilité (à quoi sert-il?)
+* Son mode d'emploi (comment s'en servir?)
+
+## 💡Bon à savoir
+
+#### Vous réfléchirez au design de votre objet. Posez-vous les bonnes questions!
 
 *Par exemple, les antennes sont-elles des éléments que nous trouverons dans le futur?*
 
-## **🧐 Modalités**
+## 🧐 Modalités
 
--Maquette ou échelle 1
+* Maquette ou échelle 1
+* Travail en groupe (3 maximum)
+* 3 heures de pratique incluant la réalisation du mode d'emploi ainsi que l'auto-évaluation
+* Scotch interdit (sauf si caché)
 
--Travail en groupe (3 maximum)
-
--3 heures de pratique incluant la réalisation du mode d'emploi ainsi que l'auto-évaluation
-
--Scotch interdit (sauf si caché)
- 
-
-## **🟢 Auto-évaluation                                  TBM MS MF MI**
+## 🟢 Auto-évaluation                                  TBM MS MF MI
 
 * **J’ai été attentif.ve et investi.e durant toute la séquence et cela se voit à travers mon travail**
 
@@ -81,8 +83,8 @@ references:
 * Initier les élèves aux concepts de base de la conception, tels que l'ergonomie, la fonctionnalité et l'utilité de l'objet
 * Anticipation, science-fiction
 
-## **📚 Point du programme**
+## 📚 Point du programme
 
-> **La matérialité de l’œuvre ; l’objet et l’œuvre**Les représentations et statuts de l’objet en art: la place de l’objet non artistique dans l’art; l’œuvre comme objet matériel, objet d’art, objet d’étude.
+> La matérialité de l’œuvre ; l’objet et l’œuvre Les représentations et statuts de l’objet en art: la place de l’objet non artistique dans l’art; l’œuvre comme objet matériel, objet d’art, objet d’étude.
 
-## **👀 Références**
+## 👀 Références

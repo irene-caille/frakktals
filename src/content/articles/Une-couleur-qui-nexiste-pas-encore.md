@@ -11,7 +11,7 @@ image: >-
 
 **Vous êtes un ou une scientifique et vous décidez d’inventer une couleur qui n’existe pas encore.**
 
-Alors… à vos mélanges!
+Sur votre table, vous avez du rouge, du bleu, du jaune, du noir et du blanc… alors à vos mélanges!
 
 Essayez, expérimentez, n’ayez pas peur de vous tromper! Et surtout, notez les mélanges que vous avez effectués à côté de vos expériences. Vous pouvez même leur trouver de jolis noms!
 
@@ -19,7 +19,7 @@ Essayez, expérimentez, n’ayez pas peur de vous tromper! Et surtout, notez les
 
 20 minutes de pratique
 
-Gouache, pinceaux et feuille de papier
+Gouache (couleurs primaires), pinceaux et feuille de papier
 
 25 minutes de pratique
 
@@ -27,7 +27,7 @@ Gouache, pinceaux et feuille de papier
 
 **Bravo! Vous avez inventé une couleur qui n’existe pas encore!**
 
-Vous allez maintenant réaliser une peinture de votre choix qui sera réalisée avec les couleurs inventées par vous et les camarades qui sont assis à votre îlot.
+Vous avez 20 minutes pour réaliser une peinture de votre choix, avec les couleurs inventées par vous et les camarades qui sont assis à votre îlot.
 
 ## Qu’apprend-on? 
 

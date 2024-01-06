@@ -46,7 +46,3 @@ Exploiter dans une création plastique du dialogue entre les instruments et la m
 > Les relations entre matières, outils, gestes; la réalité concrète d’une œuvre ou d’une production plastique; le pouvoir de représentation ou de signification de la réalité physique globale de l’œuvre.
 
 ## 👀 Références
-
-Camille Claudel (modelage)
-
-Giaccometi l'homme qui marche

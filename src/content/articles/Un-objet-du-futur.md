@@ -76,7 +76,7 @@ references:
 
 * **Bonus: Mon travail est solidement assemblé**
 
-## **👩🏼‍🏫 Qu'apprend-on?**
+## 👩🏼‍🏫 Qu'apprend-on?
 
 * Interroger les interactions entre la forme et la fonction
 * Inventer un objet, le concevoir en volume et imaginer son emploi

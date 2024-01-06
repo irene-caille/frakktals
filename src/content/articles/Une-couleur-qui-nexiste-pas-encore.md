@@ -2,9 +2,16 @@
 title: Une couleur qui n’existe pas encore
 date: 2024-01-05T23:00:00.000Z
 category: src/content/categories/6eme.md
-image: >-
-  /src/content/assets/Une couleur qui n'existe pas encore/Couleur mélange 
-  Grande.jpeg
+image: /src/content/assets/Une couleur qui n'existe pas encore/7496.jpg
+references:
+  - image: >-
+      /src/content/assets/Une couleur qui n'existe pas encore/Capture d’écran
+      2024-01-06 à 11.51.19 Grande.jpeg
+    title: Mélanges de couleurs
+  - image: >-
+      /src/content/assets/Une couleur qui n'existe pas
+      encore/animation-cercle-chromatique-explications Grande.jpeg
+    title: Cercle chromatique
 ---
 
 ## 🤨 Que faut-il faire?

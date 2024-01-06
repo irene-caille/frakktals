@@ -49,7 +49,7 @@ references:
 
 ## 💡Bon à savoir
 
-#### Vous réfléchirez au design de votre objet. Posez-vous les bonnes questions!
+**Vous réfléchirez au design de votre objet. Posez-vous les bonnes questions!**
 
 *Par exemple, les antennes sont-elles des éléments que nous trouverons dans le futur?*
 
@@ -85,6 +85,6 @@ references:
 
 ## 📚 Point du programme
 
-> La matérialité de l’œuvre ; l’objet et l’œuvre Les représentations et statuts de l’objet en art: la place de l’objet non artistique dans l’art; l’œuvre comme objet matériel, objet d’art, objet d’étude.
+> **La matérialité de l’œuvre ; l’objet et l’œuvre** Les représentations et statuts de l’objet en art: la place de l’objet non artistique dans l’art; l’œuvre comme objet matériel, objet d’art, objet d’étude.
 
 ## 👀 Références

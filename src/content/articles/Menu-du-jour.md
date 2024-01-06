@@ -34,17 +34,14 @@ references:
 
 ![](/src/content/assets/1menudujour/menu.jpeg)
 
-## Modalités
+## 📝 Modalités
 
-3heures de pratique
+* 3 heures de pratique
+* Travail en volume 
+* Matériaux au choix ( les matériaux utilisés doivent être méconnaissables)
+* Taille réelle
 
-Travail en volume 
-
-Matériaux au choix ( les matériaux utilisés doivent être méconnaissables)
-
-Taille réelle
-
-## Compétences
+## 🟢 Compétences
 
 Votre plat est-il appétissant ? 
 
@@ -58,27 +55,24 @@ J'ai su faire preuve d’autonomie, d’initiative, de responsabilité et d’en
 
 Faire preuve d’autonomie, d’initiative, de responsabilité, d’engagement et d’esprit critique dans la conduite d’un projet artistique
 
-## On apprend quoi?
+## 🧐 On apprend quoi?
 
-Réfléchir aux éléments afin de susciter l'envie du spectateur ( forme, texture, couleur)
+* Réfléchir aux éléments afin de susciter l'envie du spectateur ( forme, texture, couleur)
+* Sélectionner et transformer des matériaux
+* Chercher la ressemblance à partir d'un référent
 
-Sélectionner et transformer des matériaux
-
-Chercher la ressemblance à partir d'un référent
-
-## Mots et notions 
+## 🗣 Mots et notions 
 
 réalisme/ hyperréalisme, imitation, ressemblance, référent
 
 couleur, texture, forme
 
-## Point de programme
+## 📚 Point de programme
 
 Les qualités physiques des matériaux : les matériaux et leur potentiel de signification dans une intention artistique
 
-## Objectifs
+## 🏁 Objectifs
 
 > Exploitation dans une création plastique du dialogue entre les instruments et la matière, en tirant parti des qualités physiques des matériaux, en faisant de la matérialité une question à explorer, un enjeu dans la perception comme l’interprétation de l’œuvre.
 
-Références
-
+## 👀 Références

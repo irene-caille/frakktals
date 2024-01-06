@@ -5,6 +5,21 @@ category: src/content/categories/6eme.md
 image: >-
   /src/content/assets/Un paysage nocturne au stylo bille/Nuit étoilée Van
   Gogh.webp
+references:
+  - image: >-
+      /src/content/assets/Un paysage nocturne au stylo bille/Caravage Vocation
+      St Mathieu.webp
+    title: La vocation de Saint Matthieu
+    author: Le Caravage
+    other: '1600'
+  - image: >-
+      /src/content/assets/Un paysage nocturne au stylo bille/Georges de la
+      Tour.webp
+    title: Le nouveau-né
+    author: Georges de la Tour
+    other: '1648 '
+  - {}
+  - {}
 ---
 
 ## Que faut-il faire?

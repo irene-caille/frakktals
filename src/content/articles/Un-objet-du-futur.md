@@ -37,7 +37,9 @@ references:
 
 ## **👨🏽‍🎨👩🏽‍🎨 Que faut-il faire?**
 
-#### **Tu réaliseras un objet du futur en volume. ** C'est-à-dire un objet qui n'existe pas encore! Bien sûr, tu pourras t'inspirer d'objets existants ou tirés de livres, de films, etc. **Ton objet sera accompagné d'un mode d'emploi qui comportera au moins les informations suivantes:** Le nom de l’objet Son utilité (à quoi sert-il?) Son mode d'emploi (comment s'en servir?)
+#### **Tu réaliseras un objet du futur en volume. ** *C'est-à-dire un objet qui n'existe pas encore! Bien sûr, tu pourras t'inspirer d'objets existants ou tirés de livres, de films, etc.*
+
+#### &#x20;**Ton objet sera accompagné d'un mode d'emploi qui comportera au moins les informations suivantes:** *Le nom de l’objet * *Son utilité (à quoi sert-il?)* *Son mode d'emploi (comment s'en servir?)*
 
 ## **💡Bon à savoir**
 

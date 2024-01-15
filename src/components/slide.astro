@@ -1,6 +1,5 @@
 ---
 import { Image } from 'astro:assets'
-import { createPlaceHolder } from '../libs/createPlaceHolder.ts'
 interface Props {
 	image?: ImageMetadata | undefined
 	title?: string | undefined
@@ -11,7 +10,6 @@ interface Props {
 }
 
 const { index, image, title, author, other, total } = Astro.props
-const placeHolder = image && (await createPlaceHolder(image))
 ---
 
 <section
@@ -20,13 +18,12 @@ const placeHolder = image && (await createPlaceHolder(image))
 >
 	{
 		image && (
-			<figure class="relative grid h-full w-full place-content-center overflow-auto">
+			<figure class="relative h-full max-h-full w-full overflow-auto">
 				<Image
 					src={image}
 					alt={title ?? ''}
 					width={900}
-					class=" h-auto max-h-full w-auto max-w-full overflow-auto bg-cover bg-no-repeat "
-					style={`background-image:url("${placeHolder?.src}")`}
+					class="my-auto h-full w-full object-contain  "
 				/>
 			</figure>
 		)

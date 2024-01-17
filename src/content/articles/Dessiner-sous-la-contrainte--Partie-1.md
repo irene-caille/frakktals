@@ -2,7 +2,7 @@
 title: Dessiner sous la contrainte- Partie 1
 date: 2024-01-05T23:00:00.000Z
 category: src/content/categories/6eme.md
-image: /src/content/assets/Dessiner sous la contrainte/tenor.gif
+image: /src/content/assets/Dessiner sous la contrainte.gif
 ---
 
 ## 🧐 Que faut-il faire?

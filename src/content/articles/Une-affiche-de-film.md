@@ -49,17 +49,15 @@ Sur format 50 X 70 cm
 
 ## 🟢 Compétences
 
-On comprend facilement le genre de film que j'ai représenté.
-
-J'ai utilisé le temps donné et mon travail est abouti
-
-J'ai su m'investir et travailler au sein du groupe
+1. On comprend facilement le genre de film que j'ai représenté
+2. J'ai utilisé le temps donné et mon travail est abouti
+3. J'ai su m'investir et travailler au sein du groupe
 
 ## 🤓 On apprend quoi?
 
 Travailler la composition d’une image
 
-Image comme outil de communication
+Comprendre qu'une image est un outil de communication
 
 Faire comprendre le genre d’un film grâce aux différents éléments qui composent l’affiche (couleur, police, etc.)
 
@@ -67,7 +65,7 @@ Réfléchir au sens de la police d’écriture
 
 ## 🚀 Objectif
 
-Production, utilisation et analyse des images de divers natures et statuts, fixes et mobiles (opérations plastiques, composition, cadrage, montage, point de vue...).
+> Production, utilisation et analyse des images de divers natures et statuts, fixes et mobiles (opérations plastiques, composition, cadrage, montage, point de vue...).
 
 ## 📚 Point de programme
 

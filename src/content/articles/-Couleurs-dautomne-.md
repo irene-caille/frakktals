@@ -33,7 +33,7 @@ references:
 
 🍂 🍂🍂 🍂🍂 🍂🍂 🍂🍂 🍂🍂 🍂🍂 🍂🍂 🍂🍂 🍂🍂 🍂🍂 🍂🍂🍂🍂🍂🍂🍂🍂
 
-#### Quelle saison superbe! Avez-vous remarqué sa lumière incroyable et ses couleurs fantastiques?
+> Quelle saison superbe! Avez-vous remarqué sa lumière incroyable et ses couleurs fantastiques?
 
 ## 🧐Que faut-il faire?
 

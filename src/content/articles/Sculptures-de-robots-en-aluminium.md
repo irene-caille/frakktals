@@ -34,7 +34,6 @@ Elle ne fera pas plus de 7 cm de hauteur, elle devra tenir debout, sans votre ai
 
 ## 💡 Qu'apprend-on?
 
-****\
 **Exploiter la malléabilité du papier aluminium**
 
 Exploiter dans une création plastique du dialogue entre les instruments et la matière, en tirant parti des qualités physiques des matériaux, en faisant de la matérialité une question à explorer, un enjeu dans la perception comme l’interprétation de l’œuvre.

@@ -3,6 +3,26 @@ title: Une affiche de film
 date: 2024-01-16T23:00:00.000Z
 category: src/content/categories/4eme.md
 image: /src/content/assets/-Affiche de film/Be kind rewind affiche film.jpeg
+references:
+  - image: >-
+      /src/content/assets/-Affiche de film/série Z films tueurs espace affiche
+      Grande.jpeg
+    title: Affiche du film Killers from space
+    author: 'Film réalisé par W. Lee Wilder, en 1954'
+  - image: >-
+      /src/content/assets/-Affiche de film/Dracula Hammer affiche film Lee
+      Grande.jpeg
+    title: Affiche du film Le cauchemar de Dracula
+    author: 'Film réalisé par Terence Fisher, sorti en 1958'
+  - image: >-
+      /src/content/assets/-Affiche de
+      film/indiana-jones-1-aventuriers-l-arche-perdue-dvd Grande.jpeg
+    title: 'Affiche du film Indiana Jones, les aventuriers de l''Arche perdue'
+    author: 'Film du réalisateur Steven Spielberg, 1981'
+  - image: /src/content/assets/-Affiche de film/Affiche film titanic .jpg
+    title: Affiche du film Titanic
+    author: Film du réalisateur James Cameron
+    other: '1997'
 ---
 
 ## 🧐 Que faut-il faire?
@@ -25,7 +45,7 @@ Sur format 50 X 70 cm
 
 **🚨 Réaliser un projet en groupe signifie que chaque élève travaille de façon équitable et active.**
 
-** Donner des idées, c'est bien mais il faut surtout pratiquer! **
+ Donner des idées, c'est bien mais il faut surtout pratiquer! 
 
 ## 🟢 Compétences
 
@@ -51,4 +71,6 @@ Production, utilisation et analyse des images de divers natures et statuts, fixe
 
 ## 📚 Point de programme
 
-> La création, la matérialité, le statut, la signification des images : l’appréhension et la compréhension de la diversité des images; leurs propriétés plastiques, iconiques, sémantiques, symboliques; les différences d’intention entre expression artistique et communication visuelle, entre œuvre et image d’œuvre
+> La création, la matérialité, le statut, la signification des images : l’appréhension et la compréhension de la diversité des images; leurs propriétés plastiques, iconiques, sémantiques, symboliques; les différences d’intention entre expression artistique et communication visuelle, entre œuvre et image d’œuvre.
+
+## 👀 Références

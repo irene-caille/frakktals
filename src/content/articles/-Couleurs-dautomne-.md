@@ -1,8 +1,8 @@
 ---
-title: "\U0001F342 Couleurs d'automne \U0001F342"
+title: "\U0001F342 Couleurs d'automne "
 date: 2024-02-02T23:00:00.000Z
 category: src/content/categories/6eme.md
-image: /src/content/assets/&Couleurs d'automne/1315252_f0c72.gif
+image: /src/content/assets/&Couleurs d'automne/giphy (1).gif
 references:
   - image: >-
       /src/content/assets/&Couleurs d'automne/4-Konrad Alexander
@@ -38,7 +38,7 @@ Juste avec votre pinceau et votre peinture, vous montrerez ce qui, selon vous, c
 
 Une heure de pratique
 
-## 🤨Pourquoi fait-on cela? 
+## 🤨Pourquoi fait-on cela?
 
 Pour commencer votre initiation à la peinture et vous familiariser avec les us et coutumes de la salle d'arts plastiques.
 

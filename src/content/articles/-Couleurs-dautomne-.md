@@ -2,7 +2,10 @@
 title: "\U0001F342 Couleurs d'automne "
 date: 2024-02-02T23:00:00.000Z
 category: src/content/categories/6eme.md
-image: /src/content/assets/&Couleurs d'automne/giphy (1).gif
+image: >-
+  /src/content/assets/&Couleurs
+  d'automne/68423079-seamless-pattern-autumn-leaves-it-can-be-used-for-printing-on-fabric-wrapping-paper-wallpaper
+  Grande.jpeg
 references:
   - image: >-
       /src/content/assets/&Couleurs d'automne/4-Konrad Alexander

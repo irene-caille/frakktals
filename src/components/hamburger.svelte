@@ -36,6 +36,7 @@
 		on:click={handleClick}
 		class="text-3xl sm:text-5xl stroke-black transition-all"
 		class:stroke-white={open}
+		aria-label="Menu"
 	>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"

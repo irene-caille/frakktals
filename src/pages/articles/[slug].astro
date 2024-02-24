@@ -26,7 +26,7 @@ const referencesPlaceHolders = references
 	? await Promise.all(references?.map((r) => createPlaceHolder(r.image!)))
 	: []
 
-const ogImage = await getImage({ src: image, width: 1200, height: 630, format: 'jpg' })
+const ogImage = await getImage({ src: image, width: 1200, height: 630 })
 ---
 
 <Base {title} imageUrl={ogImage.src}>

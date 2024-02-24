@@ -3,7 +3,7 @@ title: Un monde extraordinaire tout en collage
 date: 2024-02-23T23:00:00.000Z
 category: src/content/categories/5eme.md
 image: >-
-  /src/content/assets/Un paysage extraordinaire tout en collage/Ciseau image
+  /src/content/assets/Un paysage extraordinaire tout en collage/Ciseau cut image
   Grande.jpeg
 references:
   - image: >-

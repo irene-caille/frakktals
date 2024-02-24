@@ -31,7 +31,14 @@ const pageTitle = title ? `Arplastoc • ${title}` : 'Arplastoc'
 		<meta property="og:title" content={pageTitle} />
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content={config.siteUrl + Astro.url.pathname} />
-		{imageUrl && <meta property="og:image" content={config.siteUrl + imageUrl} />}
+		{imageUrl && (
+			<meta property="og:image" content={config.siteUrl + imageUrl} />
+			<meta property="og:image:alt" content={config.siteUrl} />
+			<meta property="og:image:width" content="1200" />
+			<meta property="og:image:height" content="630" />
+
+			)
+		}
 	</head>
 	<body class="bg-primary-300">
 		<Header />

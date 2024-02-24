@@ -41,7 +41,7 @@ references:
     author: 'JA Alavoine '
 ---
 
-![](</src/content/assets/**La Tour Eiffel remplacée/carte-postale-tour-eiffel-14 Grande.jpeg>)**Les parisiens et les touristes sont lassés de voir la célèbre Tour Eiffel!**
+**Les parisiens et les touristes sont lassés de voir la célèbre Tour Eiffel!**
 
 **Sous la forme d’une carte postale, vous imaginerez et représenterez ce qui pourrait la remplacer.**
 

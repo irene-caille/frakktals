@@ -27,9 +27,7 @@ references:
   - image: /src/content/assets/tour-eiffel/Space Needle Grande.jpeg
     title: 'Space Needle, Seattle, 1962'
     author: ' Architectes: John Graham & Associates Ingénieur: Victor Steinbrueck'
-  - image: >-
-      /src/content/assets/remplacer-la-tour-eiffel/Space Needle Point of view
-      Grande.jpeg
+  - image: /src/content/assets/tour-eiffel/Space Needle Point of view Grande.jpeg
     title: 'Space Needle, Seattle, 1962'
     author: ' Architectes: John Graham & Associates Ingénieur: Victor Steinbrueck'
   - image: /src/content/assets/remplacer-la-tour-eiffel/Elephant bastille Grande.jpeg

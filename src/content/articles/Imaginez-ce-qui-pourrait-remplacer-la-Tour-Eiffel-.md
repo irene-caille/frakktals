@@ -2,9 +2,9 @@
 title: "Imaginez ce qui pourrait remplacer la Tour Eiffel \U0001F5FC"
 date: 2024-02-23T23:00:00.000Z
 category: src/content/categories/5eme.md
-image: /src/content/assets/remplacer-la-tour-eiffel/Tour Eiffel Grande.jpeg
+image: /src/content/assets/tour-eiffel/Tour Eiffel Grande.jpeg
 references:
-  - image: /src/content/assets/remplacer-la-tour-eiffel/Pont Da Nang Grande.jpeg
+  - image: /src/content/assets/tour-eiffel/Pont Da Nang Grande.jpeg
     title: 'Pont doré, Vietnam'
     author: Architecte inconnu
     other: >-

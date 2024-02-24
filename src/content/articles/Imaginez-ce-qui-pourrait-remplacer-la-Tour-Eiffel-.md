@@ -24,7 +24,7 @@ references:
       mesurant l'espace » - comme l'aiguille d'un cadran) est une tour
       d'observation futuriste construite dans le quartier de Lower Queen Anne à
       Seattle pour l'exposition universelle de 1962.
-  - image: /src/content/assets/remplacer-la-tour-eiffel/Space Needle Grande.jpeg
+  - image: /src/content/assets/tour-eiffel/Space Needle Grande.jpeg
     title: 'Space Needle, Seattle, 1962'
     author: ' Architectes: John Graham & Associates Ingénieur: Victor Steinbrueck'
   - image: >-

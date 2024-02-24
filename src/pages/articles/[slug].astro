@@ -1,7 +1,7 @@
 ---
 import type { GetStaticPaths, InferGetStaticPropsType } from 'astro'
-import { Image } from 'astro:assets'
-import { getCollection, reference } from 'astro:content'
+import { Image, getImage } from 'astro:assets'
+import { getCollection } from 'astro:content'
 import Base from '../../layouts/base.astro'
 import { createPlaceHolder } from '../../libs/createPlaceHolder.ts'
 
@@ -25,9 +25,11 @@ const placeHolder = await createPlaceHolder(image)
 const referencesPlaceHolders = references
 	? await Promise.all(references?.map((r) => createPlaceHolder(r.image!)))
 	: []
+
+const ogImage = await getImage({ src: image, width: 1200, height: 630, format: 'jpg' })
 ---
 
-<Base {title} imageUrl={image.src}>
+<Base {title} imageUrl={ogImage.src}>
 	<article class="relative sm:pt-8 md:pt-16">
 		<section class="grid items-center gap-4 px-8 md:grid-cols-2 lg:px-32">
 			<div class="z-10 flex h-full flex-col justify-evenly">

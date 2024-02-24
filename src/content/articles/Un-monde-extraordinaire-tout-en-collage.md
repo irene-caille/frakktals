@@ -25,23 +25,25 @@ references:
 
 ## 🧐 Que faut-il faire?
 
-Aujourd'hui, on oublie les crayons! Tu réaliseras un monde extraordinaire juste avec ta paire de ciseaux, de la colle et des magazines.
+**Aujourd'hui, on oublie les crayons! Tu réaliseras un monde extraordinaire juste avec ta paire de ciseaux, de la colle et des magazines.**
 
-2h de pratique
+2 heures de pratique
 
 Travail individuel
 
 ## 🤓 Qu'apprend-on?
 
-Créer à partir de fragments, de morceaux choisis.
-
-Sélectionner, organiser, composer des éléments
+* Créer à partir de fragments, de morceaux choisis.
+* Sélectionner, organiser, composer des éléments
 
 ## 📚 On apprend quoi?
 
-Collage, composition, superposition, juxtaposition
-
-Fantastique, surréaliste
+* collage
+* composition
+* superposition
+* juxtaposition
+* fantastique
+* surréaliste
 
 ## 🟢 Compétences travaillées
 

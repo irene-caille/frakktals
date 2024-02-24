@@ -5,6 +5,22 @@ category: src/content/categories/5eme.md
 image: >-
   /src/content/assets/Un paysage extraordinaire tout en collage/Ciseau image
   Grande.jpeg
+references:
+  - image: >-
+      /src/content/assets/Un paysage extraordinaire tout en collage/Salvador
+      Dali, The First Days of Spring, 1929. Grande.jpeg
+    title: 'The First Days of Spring, 1929'
+    author: Salvador Dalí (11 mai 1904-23 janvier 1989)
+  - image: >-
+      /src/content/assets/Un paysage extraordinaire tout en collage/Hannah Höch
+      (1889:1978)  Collage with Ethnic Mask (undated) Grande.jpeg
+    title: Collage avec masque ethnique ( non daté)
+    author: 'Hannah Höch (1889-1978) '
+  - image: >-
+      /src/content/assets/Un paysage extraordinaire tout en collage/HANNAH HÖCH
+      Am Nil II, 1940. Collage Grande.jpeg
+    title: 'Am Nil II, 1940. Collage '
+    author: 'Hannah Höch (1889-1978) '
 ---
 
 ## 🧐 Que faut-il faire?

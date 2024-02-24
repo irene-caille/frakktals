@@ -15,7 +15,8 @@ references:
       vue sur les collines boisées du centre du pays. Le pont forme une boucle,
       et semble être soutenu par deux immenses mains en béton2.
   - image: >-
-      /src/content/assets/remplacer-la-tour-eiffel/Space-Needle-2018-Nic-Lehoux-Seattle-01 Grande.jpeg
+      /src/content/assets/remplacer-la-tour-eiffel/Space-Needle-2018-Nic-Lehoux-Seattle-01
+      Grande.jpeg
     title: 'Space Needle, Seattle, 1962 '
     author: ' Architectes: John Graham & Associates Ingénieur: Victor Steinbrueck'
     other: >-
@@ -31,16 +32,14 @@ references:
       Grande.jpeg
     title: 'Space Needle, Seattle, 1962'
     author: ' Architectes: John Graham & Associates Ingénieur: Victor Steinbrueck'
-  - image: >-
-      /src/content/assets/remplacer-la-tour-eiffel/Elephant bastille
-      Grande.jpeg
+  - image: /src/content/assets/remplacer-la-tour-eiffel/Elephant bastille Grande.jpeg
     title: >-
       Dernier projet de la fontaine de l'éléphant pour la place de la Bastille,
       Musée du Louvre
     author: 'JA Alavoine '
 ---
 
-\*\*\*\*![](/src/content/assets/61.gif)
+\*\*\*\*![](</src/content/assets/tour-eiffel/carte-postale-tour-eiffel-14 Grande.jpeg>)
 
 **Les parisiens et les touristes sont lassés de voir la célèbre Tour Eiffel!**
 
@@ -52,10 +51,10 @@ Mais avant cela, voyons ensemble ce qu'est la Tour Eiffel:
 
 ## 🔎 Que faut-il faire?
 
-- Vous réaliserez une carte postale (format A5) sur laquelle vous représenterez ce qui pourrait remplacer la Tour Eiffel
-- Travail individuel
-- 1 heure de pratique
-- Vous trouverez un nom à votre monument. Celui-ci pourra apparaître sur votre carte postale
+* Vous réaliserez une carte postale (format A5) sur laquelle vous représenterez ce qui pourrait remplacer la Tour Eiffel
+* Travail individuel
+* 1 heure de pratique
+* Vous trouverez un nom à votre monument. Celui-ci pourra apparaître sur votre carte postale
 
 ## 🧐 Pourquoi fait-on cela?
 
@@ -63,12 +62,12 @@ Concevoir et réaliser une architecture en fonction de sa destination, de son ut
 
 ## 👩🏼‍🏫 Qu'apprend-on?
 
-- monument public
-- architecture
-- osmose
-- domination
-- dilution
-- marquage...
+* monument public
+* architecture
+* osmose
+* domination
+* dilution
+* marquage...
 
 ## 🟢 Compétences
 

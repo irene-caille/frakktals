@@ -1,4 +1,5 @@
 export const config = {
+	siteUrl:"https://arplastoc.com",
 	base: '',
 	categoriesColors: [
 		{

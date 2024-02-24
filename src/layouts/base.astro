@@ -4,6 +4,13 @@ import '@fontsource/roboto/700.css'
 import '@fontsource/roboto/400-italic.css'
 import '@fontsource/chewy'
 import Header from '../components/header.astro'
+export type Props = {
+	title?: string
+	description?: string
+	imageUrl?: string
+}
+
+const { title, description, imageUrl } = Astro.props
 ---
 
 <html lang="fr">
@@ -14,9 +21,13 @@ import Header from '../components/header.astro'
 		<meta name="viewport" content="width=device-width" />
 		<meta
 			name="description"
-			content="Une professeure d'arts plastiques en collège, partage des séances créatives pour les élèves. Découvrez des activités artistiques inspirantes et explorez les galeries d'œuvres incroyables réalisées par nos jeunes artistes en herbe."
+			content={description ??
+				"Une professeure d'arts plastiques en collège, partage des séances créatives pour les élèves. Découvrez des activités artistiques inspirantes et explorez les galeries d'œuvres incroyables réalisées par nos jeunes artistes en herbe."}
 		/>
-		<title>Arplastoc</title>
+		<meta property="og:type" content="website" />
+		<title>Arplastoc {title && ` • ${title}`}</title>
+		{title && <meta property="og:title" content="The Rock" />}
+		{imageUrl && <meta property="og:image" content={imageUrl} />}
 	</head>
 	<body class="bg-primary-300">
 		<Header />

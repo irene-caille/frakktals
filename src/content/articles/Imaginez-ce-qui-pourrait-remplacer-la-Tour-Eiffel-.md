@@ -37,7 +37,7 @@ references:
     author: 'JA Alavoine '
 ---
 
-![](</src/content/assets/tour-eiffel/carte-postale-tour-eiffel-14 Grande.jpeg>)
+![](/src/content/assets/tour-eiffel/carte-postale-tour-eiffel-14.jpeg)
 
 **Les parisiens et les touristes sont lassés de voir la célèbre Tour Eiffel!**
 

@@ -15,7 +15,7 @@ references:
       vue sur les collines boisées du centre du pays. Le pont forme une boucle,
       et semble être soutenu par deux immenses mains en béton2.
   - image: >-
-      /src/content/assets/remplacer-la-tour-eiffel/Space-Needle-2018-Nic-Lehoux-Seattle-01
+      /src/content/assets/tour-eiffel/Space-Needle-2018-Nic-Lehoux-Seattle-01
       Grande.jpeg
     title: 'Space Needle, Seattle, 1962 '
     author: ' Architectes: John Graham & Associates Ingénieur: Victor Steinbrueck'

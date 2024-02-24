@@ -30,7 +30,7 @@ references:
   - image: /src/content/assets/tour-eiffel/Space Needle Point of view Grande.jpeg
     title: 'Space Needle, Seattle, 1962'
     author: ' Architectes: John Graham & Associates Ingénieur: Victor Steinbrueck'
-  - image: /src/content/assets/remplacer-la-tour-eiffel/Elephant bastille Grande.jpeg
+  - image: /src/content/assets/tour-eiffel/Elephant bastille Grande.jpeg
     title: >-
       Dernier projet de la fontaine de l'éléphant pour la place de la Bastille,
       Musée du Louvre

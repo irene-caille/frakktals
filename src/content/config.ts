@@ -7,6 +7,7 @@ const articlesCollection = defineCollection({
 	schema: ({ image }) =>
 		z.object({
 			title: z.string(),
+			description: z.string().optional(),
 			date: z.date(),
 			category: z.string(),
 			image: image(),
@@ -29,6 +30,7 @@ const galeriesCollection = defineCollection({
 	schema: ({ image }) =>
 		z.object({
 			title: z.string(),
+			description: z.string().optional(),
 			date: z.date(),
 			images: z.array(image())
 		})

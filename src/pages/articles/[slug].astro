@@ -18,7 +18,7 @@ type Props = InferGetStaticPropsType<typeof getStaticPaths>
 
 const { article } = Astro.props
 
-const { title, image, altImage, references: rawReferences } = article.data
+const { title, image, altImage, references: rawReferences, description } = article.data
 const references = rawReferences?.filter((r) => r.image)
 const { Content } = await article.render()
 const placeHolder = await createPlaceHolder(image)
@@ -29,7 +29,7 @@ const referencesPlaceHolders = references
 const ogImage = await getImage({ src: image, width: 1200, height: 630, format: 'png' })
 ---
 
-<Base {title} imageUrl={ogImage.src}>
+<Base {title} {description} imageUrl={ogImage.src}>
 	<article class="relative sm:pt-8 md:pt-16">
 		<section class="grid items-center gap-4 px-8 md:grid-cols-2 lg:px-32">
 			<div class="z-10 flex h-full flex-col justify-evenly">

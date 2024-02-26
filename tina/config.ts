@@ -44,6 +44,11 @@ export default defineConfig({
 					},
 					{
 						type: 'string',
+						name: 'metaDesc',
+						label: 'Méta description'
+					},
+					{
+						type: 'string',
 						name: 'logoColor',
 						label: 'Couleur du logo',
 						options: [
@@ -147,6 +152,12 @@ export default defineConfig({
 						required: true
 					},
 					{
+						type: 'string',
+						name: 'description',
+						label: 'description',
+						required:false
+					},
+					{
 						type: 'datetime',
 						name: 'date',
 						label: 'Date',
@@ -176,10 +187,6 @@ export default defineConfig({
 						label: 'Références',
 						list: true,
 						ui: {
-							// itemProps: (item) => {
-							// 	// Field values are accessed by item?.<Field name>
-							// 	return { label: item?.title }
-							// }
 						},
 						fields: [
 							{
@@ -224,6 +231,12 @@ export default defineConfig({
 						label: 'Title',
 						isTitle: true,
 						required: true
+					},
+					{
+						type: 'string',
+						name: 'description',
+						label: 'description',
+						required:false
 					},
 					{
 						type: 'datetime',

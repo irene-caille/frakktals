@@ -1,5 +1,6 @@
 ---
 title: Les habitations idéales des 3E
+description: Les travaux des 3E pour le travail "les habitations idéales".
 date: 2024-01-15T23:00:00.000Z
 images:
   - /src/content/assets/1Architectures idéales des 3E/IMG20240112094519.jpg

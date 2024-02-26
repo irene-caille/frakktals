@@ -1,4 +1,5 @@
 ---
+import settings from "../content/settings/settings.json"
 import '@fontsource/roboto'
 import '@fontsource/roboto/700.css'
 import '@fontsource/roboto/400-italic.css'
@@ -26,7 +27,7 @@ const pageTitle = title ? `Arplastoc • ${title}` : 'Arplastoc'
 		<meta
 			name="description"
 			content={description ??
-				"Une professeure d'arts plastiques en collège, partage des séances créatives pour les élèves. Découvrez des activités artistiques inspirantes et explorez les galeries d'œuvres incroyables réalisées par nos jeunes artistes en herbe."}
+				settings.metaDesc}
 		/>
 		<meta property="og:title" content={pageTitle} />
 		<meta property="og:type" content="website" />
@@ -36,7 +37,6 @@ const pageTitle = title ? `Arplastoc • ${title}` : 'Arplastoc'
 			<meta property="og:image:alt" content={config.siteUrl} />
 			<meta property="og:image:width" content="1200" />
 			<meta property="og:image:height" content="630" />
-
 			)
 		}
 	</head>

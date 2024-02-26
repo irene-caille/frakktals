@@ -9,19 +9,21 @@ export const getStaticPaths = (async () => {
 	const galeries = await getCollection('galeries')
 	return galeries.map((el) => ({
 		params: { slug: el.slug },
-		props: { images: el.data.images }
+		props: { ...el.data }
 	}))
 }) satisfies GetStaticPaths
 
 type Props = InferGetStaticPropsType<typeof getStaticPaths>
 
-const { images } = Astro.props
+const { images, title, description } = Astro.props
 
 const fullImages = await Promise.all(images.map((image) => getImage({ src: image, width: 1000 })))
 const placeHolders = await Promise.all(images.map((image) => createPlaceHolder(image)))
+
+const ogImage = await getImage({ src: images[0], width: 1200, height: 630, format: 'png' })
 ---
 
-<Base>
+<Base {title} {description} imageUrl={ogImage.src}>
 	<section class="p-4">
 		<ul class="container mx-auto flex flex-wrap gap-6" id="gallery">
 			{

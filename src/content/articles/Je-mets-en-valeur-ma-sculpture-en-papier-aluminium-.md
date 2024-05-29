@@ -2,10 +2,10 @@
 title: 'Je mets en valeur ma sculpture en papier aluminium '
 date: 2024-05-28T22:00:00.000Z
 category: src/content/categories/5eme.md
-image: /src/content/assets/Robots en alu/futurama-happy-dance-bender-doodle.gif
+image: /src/content/assets/Robots en alu/futurama_museum.jpeg
 ---
 
-## Que faut-il faire? 
+## Que faut-il faire?
 
 Ta sculpture en papier aluminium va être exposée au Louvre! À toi de la mettre en valeur pour que le public soit impressionné.
 

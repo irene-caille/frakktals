@@ -1,5 +1,5 @@
 ---
-title: De petites sculptures de personnage en papier aluminium
+title: 1.De petites sculptures de personnage en papier aluminium
 date: 2024-04-28T22:00:00.000Z
 category: src/content/categories/5eme.md
 image: /src/content/assets/Robots en alu/futuramabender Grande.jpg
@@ -40,7 +40,7 @@ Exploiter dans une création plastique du dialogue entre les instruments et la m
 
 ## 📚 Programme
 
-**La transformation de la matière **
+\*\*La transformation de la matière \*\*
 
 > Les relations entre matières, outils, gestes; la réalité concrète d’une œuvre ou d’une production plastique; le pouvoir de représentation ou de signification de la réalité physique globale de l’œuvre.
 

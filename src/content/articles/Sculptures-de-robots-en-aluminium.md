@@ -1,5 +1,5 @@
 ---
-title: Sculptures de robots en aluminium
+title: De petites sculptures de personnage en papier aluminium
 date: 2024-01-05T23:00:00.000Z
 category: src/content/categories/5eme.md
 image: /src/content/assets/Robots en alu/futuramabender Grande.jpg
@@ -14,7 +14,7 @@ references:
 
 ## 🧐 Que faut-il faire?
 
-**Vous réaliserez une petite sculpture en forme de robot.**
+**Vous réaliserez une petite sculpture en forme de personnage, animal ou monstre.**
 
 Elle ne fera pas plus de 7 cm de hauteur, elle devra tenir debout, sans votre aide!
 
@@ -40,7 +40,7 @@ Exploiter dans une création plastique du dialogue entre les instruments et la m
 
 ## 📚 Programme
 
-**La transformation de la matière **
+\*\*La transformation de la matière \*\*
 
 > Les relations entre matières, outils, gestes; la réalité concrète d’une œuvre ou d’une production plastique; le pouvoir de représentation ou de signification de la réalité physique globale de l’œuvre.
 

@@ -40,7 +40,7 @@ Exploiter dans une création plastique du dialogue entre les instruments et la m
 
 ## 📚 Programme
 
-\*\*La transformation de la matière \*\*
+**La transformation de la matière **
 
 > Les relations entre matières, outils, gestes; la réalité concrète d’une œuvre ou d’une production plastique; le pouvoir de représentation ou de signification de la réalité physique globale de l’œuvre.
 

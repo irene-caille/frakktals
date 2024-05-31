@@ -44,5 +44,5 @@ export const config = {
 		}
 	],
 
-	articleByPage: 12
+	articleByPage: 24
 }

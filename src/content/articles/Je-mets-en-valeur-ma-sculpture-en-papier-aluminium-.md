@@ -1,5 +1,5 @@
 ---
-title: '2.Je mets en valeur ma sculpture en papier aluminium '
+title: '2. Je mets en valeur ma sculpture en papier aluminium '
 date: 2024-05-28T22:00:00.000Z
 category: src/content/categories/5eme.md
 image: /src/content/assets/Robots en alu/futurama_museum.jpeg

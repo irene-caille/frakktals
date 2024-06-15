@@ -1,5 +1,5 @@
 ---
-title: 1.De petites sculptures de personnage en papier aluminium
+title: 1. De petites sculptures de personnage en papier aluminium
 date: 2024-04-28T22:00:00.000Z
 category: src/content/categories/5eme.md
 image: /src/content/assets/Robots en alu/futuramabender Grande.jpg

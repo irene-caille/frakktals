@@ -2,7 +2,7 @@
 title: Mon portrait officiel
 date: 2024-06-15T22:00:00.000Z
 category: src/content/categories/5eme.md
-image: /src/content/assets/Mon portrait officiel/lady-diana-andy-warhol Grande.jpeg
+image: /src/content/assets/monportraitofficiel/lady-diana-andy-warhol Grande.jpeg
 ---
 
 ## 👑 Mais qu'est-ce qu'un portrait officiel ?
@@ -11,6 +11,6 @@ Depuis toujours, les portraits officiels représentent des personnalités import
 
 ## 👀 Série de portraits officiels
 
-![](</src/content/assets/Mon portrait officiel/Elizabeth 1 Grande.jpeg>)
+![](/src/content/assets/monportraitofficiel/elizabeth1grande.jpeg)
 
 Le Portrait de l'Armada est un tableau allégorique représentant la reine Élisabeth Ire entourée des attributs du pouvoir royal, les regalia, notamment la couronne et le globe, sur un fond représentant la défaite de l'Invincible Armada en 1588. Il a été peint par Nicholas Hilliard.

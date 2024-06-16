@@ -14,3 +14,7 @@ Depuis toujours, les portraits officiels représentent des personnalités import
 ![](/src/content/assets/monportraitofficiel/elizabeth1grande.jpeg)
 
 Le Portrait de l'Armada est un tableau allégorique représentant la reine Élisabeth Ire entourée des attributs du pouvoir royal, les regalia, notamment la couronne et le globe, sur un fond représentant la défaite de l'Invincible Armada en 1588. Il a été peint par Nicholas Hilliard.
+
+![](</src/content/assets/Mon portrait officiel/louisxiv.jpeg>)![](</src/content/assets/Mon portrait officiel/napoleoningresportrait.jpeg>)
+
+![](</src/content/assets/Mon portrait officiel/emmanuelmacronprésidentportraitofficiel.jpeg>)

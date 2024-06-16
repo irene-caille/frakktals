@@ -1,10 +1,14 @@
 ---
 title: Mon portrait officiel
-date: 2023-12-27T23:00:00.000Z
+date: 2024-06-15T22:00:00.000Z
 category: src/content/categories/5eme.md
 image: /src/content/assets/Mon portrait officiel/lady-diana-andy-warhol Grande.jpeg
 ---
 
-Les portraits officiels des présidents, rois, et impératrices sont remplis de symboles qui racontent leur histoire et leurs exploits. Par exemple, un roi peut tenir un sceptre pour montrer son pouvoir, ou une reine peut porter une couronne pour représenter son autorité. Parfois, on voit des drapeaux pour symboliser le pays qu'ils dirigent, ou des livres pour montrer qu'ils sont sages.
+## 👑 Mais qu'est-ce qu'un portrait officiel ? 
 
-Il y a aussi des symboles de leurs grandes réussites, comme des épées pour montrer les guerres qu'ils ont gagnées, ou des médailles et des décorations pour rappeler leurs victoires et leur bravoure. Ces symboles aident tout le monde à comprendre pourquoi ces leaders sont importants et ce qu'ils ont accompli, même si on ne connaît pas tous les détails de leur vie.
+Depuis toujours, les portraits officiels représentent des personnalités importantes et sont remplis de symboles qui racontent leur histoire et leurs exploits. Qu'ils soient photographiques, peints ou sculptés, ces portraits montrent le pouvoir de ces personnages et sont un excellent outil de communication. Comme nous allons le voir, rien n'est laissé au hasard dans l'art du portrait officiel.
+
+## 👀 Série de portraits officiels
+
+##### ![](</src/content/assets/Mon portrait officiel/Le Portrait de l'Armada est un tableau allégorique représentant la reine Élisabeth Ire entourée des attributs du pouvoir royal, les regalia, notamment la couronne et le globe, sur un fond représentant la défaite de l'Invincible Armada en 1588..jpg>)

@@ -11,4 +11,4 @@ Depuis toujours, les portraits officiels représentent des personnalités import
 
 ## 👀 Série de portraits officiels
 
-##### ![](</src/content/assets/Mon portrait officiel/Elizabeth 1 Grande.jpeg>)
+![](</src/content/assets/Mon portrait officiel/Elizabeth 1 Grande.jpeg>)

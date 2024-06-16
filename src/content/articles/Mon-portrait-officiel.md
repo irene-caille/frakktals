@@ -4,6 +4,10 @@ date: 2024-06-15T22:00:00.000Z
 category: src/content/categories/5eme.md
 image: /src/content/assets/monportraitofficiel/lady-diana-andy-warhol Grande.jpeg
 references:
+  - image: /src/content/assets/Mon portrait officiel/louisxiv.jpeg
+    title: Portrait de Louis XIV en costume de sacre
+    author: ' Hyacinthe Rigaud en 1701'
+    other: "Huile sur toile Dimensions (H × L)\t 277 × 194 cm, exposé au Château de Versailles"
   - image: /src/content/assets/Mon portrait officiel/Elizabeth 1 Grande.jpeg
     title: Le portrait de l'Armada
     author: Nicholas Hilliard en 1588

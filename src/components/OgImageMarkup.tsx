@@ -1,5 +1,5 @@
-import settings from '../../settings.json'
-import { tailwindColors } from '../libs/colors.ts'
+import settings from 'settings.json'
+import { tailwindColors } from 'src/libs/colors.ts'
 
 type Props = {
 	title: string

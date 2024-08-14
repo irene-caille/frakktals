@@ -1,5 +1,5 @@
 import type { APIRoute } from 'astro'
-import settings from 'settings.json'
+import settings from '../../settings.json'
 
 export const GET: APIRoute = () => {
 	return new Response(

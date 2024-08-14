@@ -1,10 +1,10 @@
 ---
 import { getCollection } from 'astro:content'
 import type { ImageMetadata } from 'astro'
-import Card from 'src/components/Card.astro'
-import Grid from 'src/components/Grid.astro'
-import MainLayout from 'src/layouts/MainLayout.astro'
-import { sortByDate } from 'src/libs/collections.ts'
+import Card from '../../components/Card.astro'
+import Grid from '../../components/Grid.astro'
+import MainLayout from '../../layouts/MainLayout.astro'
+import { sortByDate } from '../../libs/collections.ts'
 
 const galeries = sortByDate(await getCollection('galeries')).map((el) => ({
 	title: el.data.title,

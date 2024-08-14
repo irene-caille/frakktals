@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content'
 import { Transformer } from '@napi-rs/image'
 import type { APIRoute, GetStaticPaths } from 'astro'
 import satori from 'satori'
-import OgImageMarkup from 'src/components/OgImageMarkup.tsx'
+import OgImageMarkup from '../../components/OgImageMarkup.tsx'
 
 export const getStaticPaths = (async () => {
 	const articles = (await getCollection('articles')).map((el) => ({

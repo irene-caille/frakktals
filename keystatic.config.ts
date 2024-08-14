@@ -85,6 +85,7 @@ export default config({
 				),
 				content: fields.mdx({
 					label: 'Content',
+					description: 'Attention les images intégrés dans le corps du texte doivent avoir des noms de fichiers uniquement composés de caractères minuscules et chiffres.',
 					options: {
 						image: {
 							directory: 'src/content/assets/articles',
@@ -192,11 +193,13 @@ export default config({
 					options: colorsOptions,
 					label: 'Couleur du logo',
 					defaultValue: 'red',
+					description: "Voir https://tailwindcss.com/docs/customizing-colors"
 				}),
 				primaryColor: fields.select({
 					options: colorsOptions,
 					label: 'Couleur principale',
 					defaultValue: 'orange',
+					description: "Voir https://tailwindcss.com/docs/customizing-colors"
 				}),
 			},
 		}),

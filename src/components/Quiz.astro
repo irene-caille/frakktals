@@ -29,10 +29,10 @@ const isMultiple = answers.length > 1
 				</legend>
 			)
 		}
-		<ol class="grid gap-2 px-8 text-lg sm:text-xl">
+		<ol class="grid gap-2 sm:px-8 text-lg sm:text-xl">
 			{
 				options.map((el) => (
-					<li class="flex items-center gap-2">
+					<li class="flex items-center gap-2 ">
 						<input
 							type={isMultiple ? 'checkbox' : 'radio'}
 							value={el.text}

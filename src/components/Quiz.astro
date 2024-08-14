@@ -1,0 +1,130 @@
+---
+import { nanoid } from 'nanoid'
+export type Props = {
+	options: {
+		text: string
+		isCorrect?: boolean
+	}[]
+	question?: string
+}
+
+const options = Astro.props.options.map((el) => ({ ...el, key: nanoid() }))
+const { question } = Astro.props
+const quizKey = nanoid()
+const answers = options.filter((el) => el.isCorrect).map((el) => el.key)
+const isMultiple = answers.length > 1
+---
+
+<c-quizz
+	data-answers={JSON.stringify(answers)}
+	class="not-prose my-8 block px-8"
+>
+	<form
+		class="space-y-8 rounded-2xl border-2 border-black bg-primary-200 px-8 pb-4 pt-8 shadow-[7px_7px] shadow-black"
+	>
+		{
+			question && (
+				<legend class="text-center font-display text-2xl text-gray-950 sm:text-5xl">
+					{question}
+				</legend>
+			)
+		}
+		<ol class="grid gap-2 px-8 text-lg sm:text-xl">
+			{
+				options.map((el) => (
+					<li class="flex items-center gap-2">
+						<input
+							type={isMultiple ? 'checkbox' : 'radio'}
+							value={el.text}
+							name={quizKey}
+							id={el.key}
+							class="size-5 cursor-pointer border-black bg-gray-100 text-blue-600 accent-blue-500"
+						/>
+						<label for={el.key} class="cursor-pointer">
+							{el.text}
+						</label>
+					</li>
+				))
+			}
+		</ol>
+		<button
+			class="block w-full rounded-full bg-blue-500 px-4 py-2 font-display text-lg text-gray-950 transition-colors hover:bg-blue-600 disabled:cursor-not-allowed disabled:bg-gray-400 disabled:text-gray-800 data-[correct=false]:animate-[quiz-bad-answer_.3s] data-[correct=true]:animate-[quiz-good-answer_1s] data-[correct=false]:bg-red-500 data-[correct=true]:bg-green-500 sm:text-2xl"
+			disabled>Vérifier</button
+		>
+	</form>
+</c-quizz>
+
+<script>
+	customElements.define(
+		'c-quizz',
+		class Quizz extends HTMLElement {
+			#form: HTMLFormElement
+			#submitBtn: HTMLButtonElement
+			#items: HTMLInputElement[]
+			constructor() {
+				super()
+				this.#form = this.querySelector('form')!
+				this.#submitBtn = this.querySelector('button')!
+				this.#items = Array.from(this.querySelectorAll('input'))
+			}
+			connectedCallback() {
+				this.#form.addEventListener('submit', this.#handleSubmit)
+				this.#items.forEach((el) =>
+					el.addEventListener('change', this.#handleChange),
+				)
+			}
+			#handleChange = () => {
+				this.#submitBtn.removeAttribute('data-correct')
+				this.#submitBtn.removeAttribute('disabled')
+			}
+			#handleSubmit = (e: SubmitEvent) => {
+				e.preventDefault()
+				this.#submitBtn.removeAttribute('data-correct')
+				const selections = Array.from(this.querySelectorAll('input:checked'))
+				const answers = JSON.parse(
+					this.dataset['answers'] as string,
+				) as string[]
+				const isCorrect =
+					selections.length === answers.length &&
+					!selections.some((el) => !answers.includes(el.id))
+				this.#submitBtn.setAttribute('data-correct', isCorrect.toString())
+			}
+		},
+	)
+</script>
+
+<style>
+	@keyframes quiz-good-answer {
+		0% {
+			transform: scale(0) rotate(-5deg);
+		}
+
+		20%,
+		40%,
+		60%,
+		80% {
+			transform: scale(0.95) rotate(2deg);
+		}
+		30%,
+		50%,
+		70%,
+		90% {
+			transform: scale(1.05) rotate(-2deg);
+		}
+	}
+
+	@keyframes quiz-bad-answer {
+		0%,
+		100% {
+			transform: translateX(0);
+		}
+		20%,
+		60% {
+			transform: translateX(-0.5rem);
+		}
+		40%,
+		80% {
+			transform: translateX(0.5rem);
+		}
+	}
+</style>

@@ -1,0 +1,32 @@
+---
+import '@fontsource/chewy'
+import Logo from 'src/components/Logo.astro'
+import Menu from 'src/components/Menu/index.astro'
+import Search from 'src/components/Search.astro'
+import type { Props as SeoProps } from 'src/components/Seo.astro'
+import BaseLayout from './BaseLayout.astro'
+
+export type Props = {
+	withSearch?: boolean
+	seo?: SeoProps
+}
+
+const { withSearch, seo = {} } = Astro.props
+---
+
+<BaseLayout {seo}>
+	<header
+		class="grid grid-cols-[1fr_auto_1fr] items-center justify-center px-4 py-4 sm:px-6"
+	>
+		<div>
+			<Menu />
+		</div>
+		<a href="/">
+			<Logo />
+		</a>
+		{withSearch && <Search />}
+	</header>
+	<main class="mt-20">
+		<slot />
+	</main>
+</BaseLayout>

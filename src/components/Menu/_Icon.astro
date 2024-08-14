@@ -1,0 +1,78 @@
+<c-menu-icon>
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		version="1.1"
+		viewBox="0 0 100 100"
+		class="size-8 stroke-[7] transition-transform group-hover:scale-x-110 group-focus-visible:scale-x-110 sm:size-12"
+		stroke-linecap="round"
+		stroke-linejoin="round"
+		stroke="currentColor"
+		aria-hidden="true"
+	>
+		<path id="hamburgerline1" d="m12.229 31.27h75.543" class="origin-center"
+		></path>
+
+		<path
+			id="hamburgerline2"
+			d="m12.229 50h75.543"
+			class="opacity-100 transition-opacity delay-150 duration-0"></path>
+
+		<path
+			id="hamburgerline3"
+			d="m12.229 68.731h75.543"
+			class="origin-center transition-transform"
+			style="transform:rotate({-$rotate}deg) translate(0,{-$translate}%)"
+		></path>
+	</svg>
+</c-menu-icon>
+
+<script>
+	import { animate } from 'motion'
+	export class MenuIcon extends HTMLElement {
+		#pathes: SVGPathElement[]
+
+		constructor() {
+			super()
+			this.#pathes = Array.from(this.querySelectorAll('path'))
+		}
+
+		open() {
+			animate(this, { color: 'white' })
+			animate(this.#pathes[0], {
+				transform: [
+					null,
+					'rotate(0deg) translateY(18%)',
+					'rotate(45deg) translateY(18%)',
+				],
+			})
+			animate(this.#pathes[2], {
+				transform: [
+					null,
+					'rotate(0deg) translateY(-18%)',
+					'rotate(-45deg) translateY(-18%)',
+				],
+			})
+			animate(this.#pathes[1], { opacity: 0 })
+		}
+
+		close() {
+			animate(this, { color: 'black' })
+			animate(this.#pathes[0], {
+				transform: [
+					null,
+					'rotate(0deg) translateY(18%)',
+					'rotate(0) translateY(0)',
+				],
+			})
+			animate(this.#pathes[2], {
+				transform: [
+					null,
+					'rotate(0deg) translateY(-18%)',
+					'rotate(0) translateY(0)',
+				],
+			})
+			animate(this.#pathes[1], { opacity: 1 })
+		}
+	}
+	customElements.define('c-menu-icon', MenuIcon)
+</script>

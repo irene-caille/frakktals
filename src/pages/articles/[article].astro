@@ -1,0 +1,79 @@
+---
+import { Image } from 'astro:assets'
+import { getCollection, getEntry } from 'astro:content'
+import type { GetStaticPaths } from 'astro'
+import Box from 'src/components/Box.astro'
+import Eval from 'src/components/Eval.astro'
+import Quiz from 'src/components/Quiz.astro'
+import Reel from 'src/components/Reel.astro'
+import YoutubeEmbed from 'src/components/YoutubeEmbed.astro'
+import MainLayout from 'src/layouts/MainLayout.astro'
+
+const { article: slug } = Astro.params
+
+const article = await getEntry('articles', slug)
+
+const { Content } = await article.render()
+
+export const getStaticPaths = (async () => {
+	const posts = await getCollection('articles')
+	return posts.map((el) => ({
+		params: { article: el.slug },
+	}))
+}) satisfies GetStaticPaths
+---
+
+<MainLayout
+	withSearch
+	seo={{
+		title: article.data.title,
+		isArticle: true,
+		imageUrl: `/og-images/articles/${slug}.png`,
+		description: {
+			key: 'article',
+			title: article.data.title,
+			category: article.data.category,
+		},
+	}}
+>
+	<div
+		class="relative z-10 grid items-center justify-center gap-8 px-8 md:grid-cols-2 lg:px-32"
+	>
+		<h1
+			class="z-10 mx-auto max-w-[45ch] text-balance text-center font-display text-5xl/tight md:text-left xl:text-7xl/tight"
+			data-pagefind-body
+		>
+			{article.data.title}
+		</h1>
+		<Image
+			src={article.data.thumbnail.image}
+			alt={article.data.thumbnail.alt ?? ''}
+			class="z-10 mx-auto rounded-xl border-2 border-black bg-cover bg-no-repeat"
+			width={500}
+		/>
+		<svg
+			version="1.1"
+			viewBox="0 0 162 92"
+			xmlns="http://www.w3.org/2000/svg"
+			class="-z-1 absolute bottom-0 h-32 w-full bg-primary-50 fill-primary-300"
+			preserveAspectRatio="none"
+			aria-hidden="true"
+		>
+			<path d="m0 0h162v92c-80.495-54.981-99.261-7.2988-162-64.538z"></path>
+		</svg>
+	</div>
+	<article class="bg-primary-50 pb-16 pt-32" data-pagefind-body>
+		<div
+			class="prose mx-auto px-8 sm:prose-xl md:prose-2xl prose-headings:font-display prose-blockquote:border-s-2 prose-blockquote:border-black prose-img:mx-auto prose-img:max-h-[80vmin] prose-img:w-auto prose-hr:mx-auto prose-hr:max-w-sm prose-hr:rounded-2xl prose-hr:border-t-2 prose-hr:border-black"
+		>
+			<Content components={{ Box, Eval, Quiz, YoutubeEmbed }} />
+		</div>
+		{
+			article.data.references && article.data.references.length > 0 && (
+				<section id="references">
+					<Reel images={article.data.references} {slug} />
+				</section>
+			)
+		}
+	</article>
+</MainLayout>

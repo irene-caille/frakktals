@@ -1,0 +1,49 @@
+---
+import { getCollection, getEntry } from 'astro:content'
+import Card from 'src/components/Card.astro'
+import Grid from 'src/components/Grid.astro'
+import { sortByDate } from 'src/libs/collections.ts'
+import MainLayout from './MainLayout.astro'
+
+export type Props = {
+	category?: string
+}
+
+const { category } = Astro.props
+const categoryName = category
+	? (await getEntry('categories', category))?.data?.title
+	: undefined
+
+const posts = sortByDate(await getCollection('articles')).filter(
+	(el) => category === undefined || el.data.category === category,
+)
+---
+
+<MainLayout
+	withSearch
+	seo={{
+		title: categoryName,
+		description: {
+			key: categoryName ? 'category' : 'home',
+			category: categoryName,
+		},
+		imageUrl: category
+			? `og-images/categories/${category}.png`
+			: 'og-images/home.png',
+	}}
+>
+	<Grid>
+		{
+			posts.map((el) => (
+				<Card
+					baseUrl="articles"
+					slug={el.slug}
+					title={el.data.title}
+					image={el.data.thumbnail.image}
+					alt={el.data.thumbnail.alt}
+					categorySlug={el.data.category}
+				/>
+			))
+		}
+	</Grid>
+</MainLayout>

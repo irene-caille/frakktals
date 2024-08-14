@@ -1,0 +1,70 @@
+---
+export type Props = {
+	url: string
+	label: string
+	index: number
+}
+
+const linksColors = [
+	{
+		fg: 'bg-pink-400',
+		bg: 'bg-pink-200',
+	},
+	{
+		fg: 'bg-blue-400',
+		bg: 'bg-blue-200',
+	},
+	{
+		fg: 'bg-lime-400',
+		bg: 'bg-lime-200',
+	},
+	{
+		fg: 'bg-orange-400',
+		bg: 'bg-orange-200',
+	},
+	{
+		fg: 'bg-yellow-400',
+		bg: 'bg-yellow-200',
+	},
+	{
+		fg: 'bg-red-400',
+		bg: 'bg-red-200',
+	},
+	{
+		fg: 'bg-cyan-400',
+		bg: 'bg-cyan-200',
+	},
+	{
+		fg: 'bg-amber-400',
+		bg: 'bg-amber-200',
+	},
+	{
+		fg: 'bg-purple-400',
+		bg: 'bg-purple-200',
+	},
+	{
+		fg: 'bg-emerald-400',
+		bg: 'bg-emerald-200',
+	},
+]
+
+const { url, label, index } = Astro.props
+---
+
+<a
+	href={url}
+	class:list={[
+		'group relative inline-block min-w-52 rounded-full font-display text-4xl',
+		linksColors[index % linksColors.length].bg,
+	]}
+	role="menuitem"
+>
+	<span
+		class:list={[
+			'inline-block w-full rounded-full bg-blue-400 px-4 py-1 text-center capitalize transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-focus-visible:-translate-y-1 group-focus-visible:translate-x-1',
+			linksColors[index % linksColors.length].fg,
+		]}
+	>
+		{label}
+	</span>
+</a>

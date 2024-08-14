@@ -1,0 +1,69 @@
+---
+import { Image } from 'astro:assets'
+import { getCollection, getEntry } from 'astro:content'
+import type { GetStaticPaths, ImageMetadata } from 'astro'
+import MainLayout from 'src/layouts/MainLayout.astro'
+import { round } from 'src/libs/number.ts'
+const { gallery: slug } = Astro.params
+
+const gallery = await getEntry('galeries', slug)
+
+const IMAGESBYROW = 3
+
+const images = gallery.data.images.reduce<
+	{ image: ImageMetadata; ratio: number; index: number }[][]
+>((acc, image, index) => {
+	const element = {
+		image: image,
+		index,
+		ratio: round(image.width / image.height, 2),
+	}
+	const last = acc.at(-1)
+	if (!last || last.length >= IMAGESBYROW) {
+		acc.push([element])
+		return acc
+	}
+	last.push(element)
+	return acc
+}, [])
+
+export const getStaticPaths = (async () => {
+	const galleries = await getCollection('galeries')
+	return galleries.map((el) => ({
+		params: { gallery: el.slug },
+	}))
+}) satisfies GetStaticPaths
+---
+
+<MainLayout
+	seo={{
+		title: gallery.data.title,
+		isArticle: true,
+		imageUrl: `/og-images/galeries/${slug}.png`,
+		description: {
+			key: 'gallerie',
+			title: gallery.data.title,
+		},
+	}}
+>
+	<div class="container mx-auto grid gap-4 px-4 pb-8">
+		{
+			images.map((row) => (
+				<div class="flex flex-col gap-4 md:flex-row">
+					{row.map(({ image: src, index, ratio }) => (
+						<a
+							class:list={[
+								'overflow-hidden rounded-xl border-2 border-black md:aspect-[var(--ratio)] md:grow-[var(--ratio)] md:basis-0',
+								row.length < IMAGESBYROW && 'md:max-w-[33%]',
+							]}
+							style={`--ratio:${ratio}`}
+							href={`/galeries/details/${slug}#${index}`}
+						>
+							<Image {src} alt="" class="h-full w-full" width={800} />
+						</a>
+					))}
+				</div>
+			))
+		}
+	</div>
+</MainLayout>

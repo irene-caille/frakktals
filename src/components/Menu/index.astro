@@ -1,0 +1,132 @@
+---
+import { getCollection } from 'astro:content'
+import { nanoid } from 'nanoid'
+import Icon from './_Icon.astro'
+import Item from './_Item.astro'
+
+const categories = await getCollection('categories')
+
+const links = [
+	...categories.map((el) => ({ label: el.data.title, url: `/${el.slug}` })),
+	{ label: 'Galeries', url: '/galeries' },
+]
+
+const btnId = nanoid()
+const menuId = nanoid()
+---
+
+<c-menu class="relative z-50">
+	<button
+		aria-expanded="false"
+		aria-haspopup="true"
+		aria-controls={menuId}
+		id={btnId}
+		class="group"
+		title="Menu"
+	>
+		<Icon />
+	</button>
+	<ul
+		id={menuId}
+		role="menu"
+		aria-labelledby={btnId}
+		class="fixed inset-0 -z-10 hidden place-content-center gap-8 bg-black"
+	>
+		{
+			links.map((el, index) => (
+				<li role="none">
+					<Item {...el} {index} />
+				</li>
+			))
+		}
+	</ul>
+</c-menu>
+
+<script>
+	import { animate, stagger } from 'motion'
+	import type { MenuIcon } from './_Icon.astro.0.mts'
+
+	customElements.define(
+		'c-menu',
+		class Menu extends HTMLElement {
+			#isOpen = false
+			#btn: HTMLButtonElement
+			#menu: HTMLElement
+			#menuItems: HTMLElement[]
+			#icon: MenuIcon
+			constructor() {
+				super()
+				this.#btn = this.querySelector('button')!
+				this.#menuItems = Array.from(this.querySelectorAll('li'))
+				this.#menu = this.querySelector('ul')!
+				this.#icon = this.querySelector('c-menu-icon')!
+			}
+
+			connectedCallback() {
+				this.#btn.addEventListener('click', this.#handleClick)
+			}
+
+			disconnectedCallback() {
+				this.#btn.removeEventListener('click', this.#handleClick)
+			}
+
+			#handleClick = () => {
+				if (!this.#isOpen) this.#open()
+				else this.#close()
+			}
+			#handleKeydown = (e: KeyboardEvent) => {
+				if (e.code === 'Escape') {
+					this.#close()
+					return
+				}
+				const isNext = e.code === 'Tab' && !e.shiftKey
+				const isPrevious = e.code === 'Tab' && e.shiftKey
+				if (!isNext && !isPrevious) return
+				const focusableElements = this.querySelectorAll<HTMLElement>(
+					'a[href], area[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), iframe, object, embed, *[tabindex], *[contenteditable]'
+				)
+				const first = focusableElements[0]
+				const last = focusableElements[focusableElements.length - 1]
+				if (!first || !last) return
+				if (isNext && e.target === last) {
+					e.preventDefault()
+					first.focus()
+				} else if (isPrevious && e.target === first) {
+					e.preventDefault()
+					last.focus()
+				}
+			}
+
+			#open() {
+				this.#isOpen = true
+				this.#btn.toggleAttribute('aria-expanded', true)
+				document.addEventListener('keydown', this.#handleKeydown)
+				document.body.toggleAttribute('data-menu-open', true)
+				this.#icon.open()
+				this.#menu.style.setProperty('display', 'grid')
+				animate(this.#menu, { y: ['-100%', '0%'] })
+				animate(
+					this.#menuItems,
+					{ opacity: [0, 1] },
+					{ duration: 0.5, delay: stagger(0.05, { start: 0.1 }) }
+				)
+			}
+
+			async #close() {
+				this.#icon.close()
+				await animate(this.#menu, { y: ['0%', '-100%'] }).finished
+				this.#menu.style.setProperty('display', 'none')
+				this.#isOpen = false
+				this.#btn.toggleAttribute('aria-expanded', false)
+				document.body.removeAttribute('data-menu-open')
+				document.removeEventListener('keydown', this.#handleKeydown)
+			}
+		}
+	)
+</script>
+
+<style>
+	:global(body[data-menu-open]) {
+		overflow: hidden;
+	}
+</style>

@@ -1,31 +1,34 @@
 ---
 import { Image } from 'astro:assets'
-import { createPlaceHolder } from '../libs/createPlaceHolder.ts'
-interface Props {
+import type { ImageMetadata } from 'astro'
+import { getCategory } from 'src/libs/collections.ts'
+
+export type Props = {
+	slug: string
+	baseUrl: string
 	title: string
 	image: ImageMetadata
-	altImage?: string
-	category?: string
-	url: string
+	alt?: string
+	categorySlug?: string
 }
 
-const { title, image, altImage, category, url } = Astro.props
-
-const placeHolder = await createPlaceHolder(image)
+const { baseUrl, slug, title, image, alt, categorySlug } = Astro.props
+const category = categorySlug ? getCategory(categorySlug) : undefined
 ---
 
-<article class="grid max-w-xs gap-2 rounded-3xl border-2 border-black bg-white p-2 sm:max-w-sm">
+<article
+	class="group grid max-w-xs gap-2 rounded-3xl border-2 border-black bg-white p-2 sm:max-w-sm"
+>
 	<a
-		href={url}
-		class="group relative aspect-video w-full overflow-hidden rounded-2xl border-2 border-black bg-gray-100"
-		{title}
+		href={`/${baseUrl}/${slug}`}
+		class="group/img peer relative aspect-video w-full overflow-hidden rounded-2xl border-2 border-black bg-gray-100"
+		title={title}
 	>
 		<Image
 			src={image}
-			class="h-full w-full bg-cover bg-no-repeat object-cover transition-transform duration-500 group-hover:scale-110"
-			alt={altImage ?? ''}
+			alt={alt ?? ''}
+			class="h-full w-full bg-cover bg-no-repeat object-cover transition-transform duration-500 group-hover/img:scale-110 group-focus-visible/img:scale-110 group-has-[a:focus-visible]:scale-110 group-has-[a:hover]:scale-110"
 			width={400}
-			style={`background-image:url("${placeHolder.src}")`}
 		/>
 		{
 			category && (
@@ -35,10 +38,13 @@ const placeHolder = await createPlaceHolder(image)
 			)
 		}
 	</a>
-
-	<a href={url} class="group flex h-20 items-center" {title}>
+	<a
+		href={`/${baseUrl}/${slug}`}
+		class="flex h-20 items-center hover:text-blue-500 focus-visible:text-blue-500 group-has-[a:focus-visible]:text-blue-500 group-has-[a:hover]:text-blue-500"
+		title={title}
+	>
 		<h2
-			class="line-clamp-2 font-display text-2xl transition-colors group-hover:text-links-500 sm:text-3xl"
+			class="line-clamp-2 font-display text-2xl transition-colors sm:text-3xl"
 		>
 			{title}
 		</h2>

@@ -1,0 +1,20 @@
+{
+	"home": {
+		"descriptions": "Découvrez les séquences et les travaux d'Arts Plastiques des élèves du collège Roland Garros de Villeneuve-Saint-Georges."
+	},
+	"category": {
+		"descriptions": "Découvrez les séances destinées aux élèves de %category%."
+	},
+	"article": {
+		"descriptions": "Découvrez la séance \"%title%\" destinée aux élèves de %category%."
+	},
+	"references": {
+		"descriptions": "Découvrez les références de la séance \"%title%\" destinée aux élèves de %category%."
+	},
+	"galleries": {
+		"descriptions": "Découvrez les travaux d'Arts Plastiques des élèves du collège Roland Garros de Villeneuve-Saint-Georges."
+	},
+	"gallerie": {
+		"descriptions": "Découvrez la galerie: \"%title%\""
+	}
+}

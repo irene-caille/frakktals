@@ -1,0 +1,14 @@
+---
+import { getCollection } from 'astro:content'
+import type { GetStaticPaths } from 'astro'
+import ArticlesList from 'src/layouts/ArticlesList.astro'
+
+const { category } = Astro.params
+
+export const getStaticPaths = (async () => {
+	const categories = await getCollection('categories')
+	return categories.map((el) => ({ params: { category: el.slug } }))
+}) satisfies GetStaticPaths
+---
+
+<ArticlesList {category} />

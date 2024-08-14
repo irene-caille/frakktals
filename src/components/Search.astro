@@ -1,0 +1,132 @@
+<c-search class="grid place-content-center justify-self-end p-0">
+	<button data-open class="group">
+		<div class="sr-only">Recherche</div>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			fill="none"
+			viewBox="0 0 24 24"
+			stroke-width="2"
+			stroke="currentColor"
+			class="size-6 transition-transform group-hover:scale-110 group-focus-visible:scale-110 sm:size-8"
+		>
+			<path
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+			></path>
+		</svg>
+	</button>
+	<dialog
+		class="w-10/12 max-w-2xl animate-[search-appear_.4s_both] rounded-lg p-6 backdrop:bg-gray-950/30 backdrop:backdrop-blur-sm"
+	>
+		<div class="bg-white" data-dialog-frame>
+			<div data-search-container></div>
+		</div>
+	</dialog>
+</c-search>
+<script>
+	customElements.define(
+		'c-search',
+		class Search extends HTMLElement {
+			#openBtn: HTMLButtonElement
+			#dialog: HTMLDialogElement
+			#dialogFrame: HTMLElement
+			#searchContainer: HTMLElement
+			#isOpen = false
+			constructor() {
+				super()
+				this.#openBtn = this.querySelector('button[data-open]')!
+				this.#dialog = this.querySelector('dialog')!
+				this.#dialogFrame = this.#dialog.querySelector('[data-dialog-frame]')!
+				this.#searchContainer = this.querySelector('[data-search-container]')!
+			}
+
+			connectedCallback() {
+				this.#openBtn.addEventListener('click', this.#handleClickBtn)
+				this.#dialog.addEventListener('close', this.#handleClose)
+				document.addEventListener('keydown', this.#handleKeydown)
+				//@ts-ignore
+				new PagefindUI({
+					element: this.#searchContainer,
+					translations: {
+						zero_results: 'Pas de résultat pour "[SEARCH_TERM]"',
+						clear_search: 'Effacer',
+					},
+				})
+			}
+
+			disconnectedCallback() {
+				document.removeEventListener('keydown', this.#handleKeydown)
+			}
+
+			#handleClickBtn = (e: MouseEvent) => {
+				e.stopPropagation()
+				this.#open()
+			}
+
+			#open() {
+				if (this.#isOpen) return
+				this.#dialog.showModal()
+				document.addEventListener('click', this.#handleClick)
+				document.body.toggleAttribute('data-search-open', true)
+				this.#isOpen = true
+			}
+
+			#handleKeydown = (e: KeyboardEvent) => {
+				if ((e.metaKey || e.ctrlKey) && e.code === 'KeyK') {
+					this.#isOpen ? this.#dialog.close() : this.#open()
+					e.preventDefault()
+				}
+			}
+
+			#handleClose = () => {
+				document.removeEventListener('click', this.#handleClick)
+				document.body.toggleAttribute('data-search-open', false)
+				this.#isOpen = false
+			}
+
+			#handleClick = (e: MouseEvent) => {
+				const isLink = 'href' in (e.target || {})
+				if (
+					isLink ||
+					(document.body.contains(e.target as Node) &&
+						!this.#dialogFrame.contains(e.target as Node))
+				) {
+					this.#dialog.close()
+				}
+			}
+		}
+	)
+</script>
+
+<style>
+	c-search {
+		--pagefind-ui-scale: 1;
+		--pagefind-ui-primary: theme(colors.primary.500);
+		--pagefind-ui-text: theme(colors.gray.900);
+		--pagefind-ui-background: theme(colors.white);
+		--pagefind-ui-border: theme(colors.gray.600);
+		--pagefind-ui-tag: theme(colors.gray.600);
+		--pagefind-ui-border-width: 2px;
+		--pagefind-ui-border-radius: 8px;
+		--pagefind-ui-image-border-radius: 8px;
+		--pagefind-ui-image-box-ratio: 3 / 2;
+		--pagefind-ui-font: sans-serif;
+	}
+	c-search :global(mark) {
+		background: theme(colors.primary.200);
+	}
+
+	:global(body[data-search-open]) {
+		overflow: hidden;
+	}
+
+	@keyframes search-appear {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+</style>

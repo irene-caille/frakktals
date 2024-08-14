@@ -1,0 +1,33 @@
+---
+import { getCollection, getEntry } from 'astro:content'
+import type { GetStaticPaths } from 'astro'
+import Slider from 'src/components/Slider.astro'
+import BaseLayout from 'src/layouts/BaseLayout.astro'
+
+const { gallery: slug } = Astro.params
+
+const gallery = await getEntry('galeries', slug)
+
+const images = gallery.data.images.map((image) => ({ image }))
+
+export const getStaticPaths = (async () => {
+	const galleries = await getCollection('galeries')
+	return galleries.map((el) => ({
+		params: { gallery: el.slug },
+	}))
+}) satisfies GetStaticPaths
+---
+
+<BaseLayout
+	seo={{
+		title: gallery.data.title,
+		isArticle: true,
+		imageUrl: `/og-images/galeries/${slug}.png`,
+		description: {
+			key: 'gallerie',
+			title: gallery.data.title,
+		},
+	}}
+>
+	<Slider {images} exitUrl={`/galeries/${slug}`} />
+</BaseLayout>

@@ -1,0 +1,16 @@
+---
+export type Props = {
+	src: string
+}
+const { src } = Astro.props
+---
+
+<youtube-video
+	controls
+	{src}
+	class="aspect-video h-auto w-full bg-gradient-to-b from-gray-200 to-gray-300"
+></youtube-video>
+
+<script>
+	import 'youtube-video-element'
+</script>

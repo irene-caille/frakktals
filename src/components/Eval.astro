@@ -1,0 +1,51 @@
+---
+import { slugify } from 'src/libs/slugify.ts'
+
+export type Props = {
+	rows: string[]
+}
+const { rows } = Astro.props
+const columns = [
+	'Très bonne maîtrise',
+	'Maîtrise satisfaisante',
+	'Maîtrise fragile',
+	'Maîtrise insuffisante',
+]
+---
+
+<div
+	class="not-prose overflow-hidden rounded-xl border-2 border-black shadow-[7px_7px] shadow-black"
+>
+	<div class="relative overflow-x-auto">
+		<table class="w-full text-left text-sm text-gray-500">
+			<thead class="bg-primary-300 text-xs font-bold uppercase text-gray-950">
+				<tr>
+					<th> </th>
+					{columns.map((el) => <th class="px-6 py-3 text-center">{el}</th>)}
+				</tr>
+			</thead>
+			<tbody>
+				{
+					rows.map((row) => (
+						<tr class="border-t-2 border-black bg-primary-50">
+							<th scope="row" class="px-6 py-4 font-medium text-gray-950">
+								{row}
+							</th>
+
+							{columns.map((col) => (
+								<td class="px-6 py-4 text-center">
+									<input
+										type="radio"
+										name={slugify(row)}
+										value={col}
+										class="size-6 cursor-pointer border-black accent-green-500"
+									/>
+								</td>
+							))}
+						</tr>
+					))
+				}
+			</tbody>
+		</table>
+	</div>
+</div>

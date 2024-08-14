@@ -1,18 +1,16 @@
 export const slugify = (str: string) => {
-	str = str.replace(/^\s+|\s+$/g, '') // trim
-	str = str.toLowerCase()
-
-	// remove accents, swap ñ for n, etc
-	const from = 'àáäâèéëêìíïîòóöôùúüûñç·/_,:;'
-	const to = 'aaaaeeeeiiiioooouuuunc------'
-	for (let i = 0, l = from.length; i < l; i++) {
-		str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i))
-	}
-
-	str = str
-		.replace(/[^a-z0-9 -]/g, '') // remove invalid chars
-		.replace(/\s+/g, '-') // collapse whitespace and replace by -
-		.replace(/-+/g, '-') // collapse dashes
-
-	return str
+	const from = 'àáäâèéëêìíïîòóöôùúüûñç·/_,:;'.split('')
+	const to = 'aaaaeeeeiiiioooouuuunc------'.split('')
+	return (
+		str
+			.replace(/^\s+|\s+$/g, '') //trim
+			.toLowerCase()
+			// remove accents, swap ñ for n, etc
+			.replace(new RegExp(from.join('|'), 'g'), (m) => {
+				const index = from.findIndex((el) => el === m)
+				return to[index] ?? 'z'
+			})
+			.replace(/[^a-z0-9 -]/g, '') // remove invalid chars
+			.replace(/(\s+|-+)/g, '-') // collapse whitespace and replace by -, collapse dashes
+	)
 }

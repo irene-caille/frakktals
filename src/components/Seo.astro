@@ -1,0 +1,88 @@
+---
+import templates from 'seo.json'
+import settings from 'settings.json'
+
+type TemplateKey = keyof typeof templates
+
+export const createDescription = ({
+	key,
+	title,
+	category,
+}: {
+	key: TemplateKey
+	title?: string
+	category?: string
+}) => {
+	let result = templates[key].descriptions
+
+	if (title) result = result.replace(/%title%/g, title)
+	if (category) result = result.replace(/%category%/g, category)
+	return result
+}
+
+export type Props = {
+	title?: string
+	imageUrl?: string
+	isArticle?: boolean
+	description?: Parameters<typeof createDescription>[0]
+}
+
+const formatPageTitle = (title?: string) => {
+	if (!title) return settings.title
+	return `${title} • ${settings.title}`
+}
+
+const { title, description, imageUrl, isArticle } = Astro.props
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site).href
+---
+
+<title>{formatPageTitle(title)}</title>
+<link rel="canonical" href={canonicalUrl} />
+{
+	description && (
+		<meta name="description" content={createDescription(description)} />
+	)
+}
+<meta property="og:title" content={formatPageTitle(title)} />
+<meta property="og:type" content={isArticle ? 'article' : 'website'} />
+<meta property="og:url" content={canonicalUrl} />
+<meta property="og:locale" content="fr" />
+{
+	description && (
+		<meta property="og:description" content={createDescription(description)} />
+	)
+}
+<meta property="og:site_name" content={settings.title} />
+{
+	imageUrl && (
+		<meta property="og:image" content={new URL(imageUrl, Astro.site).href} />
+	)
+}
+{imageUrl && <meta property="og:image:alt" content={title ?? settings.title} />}
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content={settings.title} />
+<meta name="twitter:title" content={formatPageTitle(title)} />
+{
+	description && (
+		<meta
+			property="twitter:description"
+			content={createDescription(description)}
+		/>
+	)
+}
+{
+	imageUrl && (
+		<meta
+			property="twitter:image"
+			content={new URL(imageUrl, Astro.site).href}
+		/>
+	)
+}
+{
+	imageUrl && (
+		<meta property="twitter:image:alt" content={title ?? settings.title} />
+	)
+}
+
+<link rel="sitemap" href="/sitemap-index.xml" />

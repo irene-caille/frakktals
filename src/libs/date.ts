@@ -1,5 +1,5 @@
-export const getDate = (date: Date) => {
-	const day = ('0' + date.getDate()).slice(-2)
+export const formatDate = (date: Date) => {
+	const day = `0${date.getDate()}`.slice(-2)
 	const month = [
 		'janvier',
 		'février',
@@ -12,8 +12,8 @@ export const getDate = (date: Date) => {
 		'septembre',
 		'octobre',
 		'novembre',
-		'décembre'
+		'décembre',
 	][date.getMonth()]
 	const year = date.getFullYear()
-	return day + ' ' + month + ' ' + year
+	return `${day} ${month} ${year}`
 }

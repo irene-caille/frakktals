@@ -18,7 +18,7 @@ const columns = [
 >
 	<div class="relative overflow-x-auto">
 		<table class="w-full text-left text-sm text-gray-500">
-			<thead class="bg-primary-300 text-xs font-bold uppercase text-gray-950">
+			<thead class="bg-primary-300  font-bold uppercase text-gray-950">
 				<tr>
 					<th> </th>
 					{columns.map((el) => <th class="px-6 py-3 text-center">{el}</th>)}
@@ -27,7 +27,7 @@ const columns = [
 			<tbody>
 				{
 					rows.map((row) => (
-						<tr class="border-t-2 border-black bg-primary-50">
+						<tr class="border-t-2 border-black bg-primary-50 md:text-base">
 							<th scope="row" class="px-6 py-4 font-medium text-gray-950">
 								{row}
 							</th>

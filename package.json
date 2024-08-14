@@ -5,10 +5,11 @@
 	"scripts": {
 		"dev": "astro dev",
 		"start": "astro dev",
-		"build": "astro check && astro build && pagefind",
+		"build": "astro build && pagefind",
 		"preview": "astro preview",
 		"astro": "astro",
 		"lint": "biome lint .",
+		"check": "astro check",
 		"format": "biome check . --write"
 	},
 	"dependencies": {

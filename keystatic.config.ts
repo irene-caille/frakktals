@@ -31,10 +31,12 @@ export default config({
 	? {
 			kind: 'local'
 		}
-	: {
-			kind: 'github',
-			repo: 'arplastoc/site'
-		},
+	:  {
+		kind: 'cloud',
+	  },
+	  cloud: {
+		project: 'arplastoc/site',
+	  },
 	collections: {
 		articles: collection({
 			label: 'Articles',

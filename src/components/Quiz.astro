@@ -55,6 +55,7 @@ const isMultiple = answers.length > 1
 </c-quizz>
 
 <script>
+	import confetti from "canvas-confetti"
 	customElements.define(
 		'c-quizz',
 		class Quizz extends HTMLElement {
@@ -87,6 +88,21 @@ const isMultiple = answers.length > 1
 				const isCorrect =
 					selections.length === answers.length &&
 					!selections.some((el) => !answers.includes(el.id))
+				if(isCorrect){
+					const posy = (this.#submitBtn.offsetTop - window.scrollY) / window.innerHeight
+					confetti({
+						angle:90,
+						scalar: 1.2,
+						spread:90,
+						shapes:["square"],
+						startVelocity: 30,
+						particleCount:100,
+						origin:{
+							x: .5,
+							y: posy,
+						}
+					})
+				}
 				this.#submitBtn.setAttribute('data-correct', isCorrect.toString())
 			}
 		},

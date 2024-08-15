@@ -27,6 +27,7 @@
 		"@types/react": "^18.3.3",
 		"@types/react-dom": "^18.3.0",
 		"astro": "^4.11.5",
+		"canvas-confetti": "^1.9.3",
 		"embla-carousel": "^8.1.7",
 		"motion": "^10.18.0",
 		"nanoid": "^5.0.7",
@@ -44,6 +45,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "1.8.3",
 		"@tailwindcss/typography": "^0.5.13",
+		"@types/canvas-confetti": "^1.6.4",
 		"@types/sharp": "^0.32.0",
 		"pagefind": "^1.1.0"
 	}

@@ -47,6 +47,7 @@
 		"@tailwindcss/typography": "^0.5.13",
 		"@types/canvas-confetti": "^1.6.4",
 		"@types/sharp": "^0.32.0",
-		"pagefind": "^1.1.0"
+		"pagefind": "^1.1.0",
+		"rehype-mathjax": "^6.0.0"
 	}
 }

@@ -92,7 +92,6 @@ export default config({
 						},
 						table: false,
 						code: false,
-						codeBlock: false,
 					},
 					components: {
 						Quiz: block({

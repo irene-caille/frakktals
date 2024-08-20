@@ -13,7 +13,7 @@ const images = gallery.data.images.map((image) => ({ image }))
 export const getStaticPaths = (async () => {
 	const galleries = await getCollection('galeries')
 	return galleries.map((el) => ({
-		params: { gallery: el.slug },
+		params: { gallery: el.slug,galeries:"galeries" },
 	}))
 }) satisfies GetStaticPaths
 ---

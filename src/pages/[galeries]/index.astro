@@ -1,4 +1,5 @@
 ---
+import type { GetStaticPaths } from "astro";
 import { getCollection } from 'astro:content'
 import type { ImageMetadata } from 'astro'
 import Card from 'src/components/Card.astro'
@@ -12,6 +13,11 @@ const galeries = sortByDate(await getCollection('galeries')).map((el) => ({
 	slug: el.slug,
 	baseUrl: 'galeries',
 }))
+
+export const getStaticPaths = (async () => {
+	const galeries = await getCollection("galeries")
+	return galeries.length > 0 ?[{params:{galeries:"galeries"}}] : [];
+}) satisfies GetStaticPaths;
 ---
 
 <MainLayout

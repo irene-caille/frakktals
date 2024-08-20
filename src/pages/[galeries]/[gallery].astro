@@ -30,7 +30,7 @@ const images = gallery.data.images.reduce<
 export const getStaticPaths = (async () => {
 	const galleries = await getCollection('galeries')
 	return galleries.map((el) => ({
-		params: { gallery: el.slug },
+		params: { gallery: el.slug,galeries:"galeries" },
 	}))
 }) satisfies GetStaticPaths
 ---

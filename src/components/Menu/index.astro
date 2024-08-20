@@ -5,10 +5,11 @@ import Icon from './_Icon.astro'
 import Item from './_Item.astro'
 
 const categories = await getCollection('categories')
+const hasGalleries = (await getCollection("galeries")).length > 0
 
 const links = [
 	...categories.map((el) => ({ label: el.data.title, url: `/${el.slug}` })),
-	{ label: 'Galeries', url: '/galeries' },
+	...(hasGalleries ? [{ label: 'Galeries', url: '/galeries' }] : []),
 ]
 
 const btnId = nanoid()
